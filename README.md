@@ -1,4 +1,4 @@
-Jexus Docs [![Build Status](https://travis-ci.org/lextm/jexus_docs.svg?branch=master)](https://travis-ci.org/lextm/jexus_docs)
+Jexus Docs [![Build Status](https://travis-ci.org/jexuswebserver/jexus_docs.svg?branch=master)](https://travis-ci.org/jexuswebserver/jexus_docs)
 ======================================================================================================================================
 
 This project provides the source for [jexus.lextudio.com](http://jexus.lextudio.com/). You can learn more about Jexus at the [homepage](http://jexus.org).
