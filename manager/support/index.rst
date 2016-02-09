@@ -6,5 +6,6 @@ Support Information
 
    supported-platforms
    known-issues
+   troubleshooting
    licensing
    services
