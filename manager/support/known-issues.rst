@@ -36,6 +36,7 @@ Known issues
 * IIS 7 Express always uses 32 bit processes. (original limitation from Microsoft)
 * ProcessorAction enum is reset to default value if set to a value IIS 7 Express does not support. (original limitation from Microsoft)
 * Visual Studio integration is under investigation. Changing a site's settings (such as bindings) might lead to problems when opening its project file in VS.
+* Start/stop a site can take a few seconds, due to the current design to health check on IIS Express process.
 
 Local IIS
 ---------
