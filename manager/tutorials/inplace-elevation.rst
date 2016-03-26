@@ -34,6 +34,7 @@ For operations that do not require elevation, the buttons are displayed without 
 Related Resources
 -----------------
 
+- :doc:`/getting-started/install`
 - :doc:`/getting-started/features`
 - :doc:`/tutorials/https-binding`
 - :doc:`/tutorials/ssl-diagnostics`

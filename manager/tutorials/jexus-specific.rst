@@ -26,4 +26,5 @@ Since Jexus settings are stored as key-value pair, this simple editor allows you
 Related Resources
 -----------------
 
+- :doc:`/getting-started/install`
 - :doc:`/getting-started/features`

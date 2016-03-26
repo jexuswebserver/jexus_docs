@@ -65,6 +65,7 @@ Such SNI based mappings are automatically created by Jexus Manager when you add 
 Related Resources
 -----------------
 
+- :doc:`/getting-started/install`
 - :doc:`/getting-started/features`
 - :doc:`/tutorials/self-signed`
 - :doc:`/tutorials/inplace-elevation`

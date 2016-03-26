@@ -30,4 +30,5 @@ error message when an error is detected.
 Related Resources
 -----------------
 
+- :doc:`/getting-started/install`
 - :doc:`/getting-started/features`

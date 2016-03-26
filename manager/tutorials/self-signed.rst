@@ -32,6 +32,7 @@ Fill in the necessary information in this wizard page, and then click OK. Jexus 
 Related Resources
 -----------------
 
+- :doc:`/getting-started/install`
 - :doc:`/getting-started/features`
 - :doc:`/tutorials/https-binding`
 - :doc:`/tutorials/inplace-elevation`

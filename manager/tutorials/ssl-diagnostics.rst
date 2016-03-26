@@ -34,6 +34,7 @@ A report is generated when "Generate Report" button is clicked.
 Related Resources
 -----------------
 
+- :doc:`/getting-started/install`
 - :doc:`/getting-started/features`
 - :doc:`/tutorials/https-binding`
 - :doc:`/tutorials/inplace-elevation`
