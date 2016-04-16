@@ -26,8 +26,9 @@ Further Explanation
 
 Application Pools
 ^^^^^^^^^^^^^^^^^
-Though IIS Express uses the same format of configuration file (applicationHost.config), and each web sites has an application pool assigned, it does not support 
-application pool at all. Every time an IIS Express instance is launched, it always uses the current user's credentials, and ignore the identity setting.
+Though IIS Express uses the same format of configuration file (``applicationHost.config``), and each web sites has an application pool assigned, it does not support 
+application pool at all. Every time an IIS Express instance is launched, it always uses the current user's credentials, and ignore the identity setting in 
+``applicationHost.config``.
 
 As IIS Express is a single instance server, there is no application pool recycle either. You can manually stop and restart the process, but that's different from 
 application pool recycle (which by default uses the overlapped mode).
