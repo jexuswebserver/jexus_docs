@@ -27,8 +27,9 @@ Visual Studio 2015 adds custom IIS Express configuration to new projects at ``($
 
 .. note:: IIS Express custom configuration is documented in `this blog post <http://blogs.msdn.com/b/webdev/archive/2015/04/29/new-asp-net-features-and-fixes-in-visual-studio-2015-rc.aspx>`_ .
 
-
 .. image:: _static/add_server_iis_express_file.png
+
+.. note:: Both solution files (.sln) and configuration files (.config) can be selected in the open file dialog.
 
 By adding such configuration files into Jexus Manager, web sites and applications can be easily managed.
 
