@@ -58,9 +58,15 @@ Starting from Windows 8/IIS 8 and above, we can create SNI based in addition to 
 
 .. image:: _static/https_sni.png
 
-Scroll down to the bottom of the list, SNI based mapping for certificates is displayed. They are bind to host name + port number instead of IP end point + port number.
+SNI based mapping for certificates is displayed under SNI tab. They are bind to host name + port number instead of IP end point + port number.
 
 Such SNI based mappings are automatically created by Jexus Manager when you add SNI based bindings to web sites. They are also removed automatically when such bindings are removed from sites.
+
+Reserved URLs
+-------------
+Reserved URLs are displayed under Reserved URL tab.
+
+.. image:: _static/reserved_urls.png
 
 Related Resources
 -----------------
