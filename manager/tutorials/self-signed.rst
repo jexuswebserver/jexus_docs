@@ -29,6 +29,17 @@ In Jexus Manager, the self-signed certificate wizard can be opened as below,
 
 Fill in the necessary information in this wizard page, and then click OK. Jexus Manager will generate a new certificate and install it to the desired store.
 
+To Trust Self-Signed Certificate
+--------------------------------
+Once a self-signed certificate is generated, it would be sometimes useful to add it to Trusted Certificate Authorities so that browser side errors 
+are suppressed. Jexus Manager makes it easy to do so,
+
+#. Choose the self-signed certificate from the list.
+#. Under Actions panel, click "Trust Self-Signed Certificate".
+#. Accept the certificate in the following system dialog.
+
+.. image:: _static/trust.png
+
 Related Resources
 -----------------
 
