@@ -4,7 +4,7 @@ This document is derived from ASP.NET 5 [Contributing Guide](https://github.com/
 
 Information on contributing to this repo is in the [Contributing Guide](https://github.com/jexuswebserver/jexuswebserver/blob/dev/CONTRIBUTING.md) in the Home repo.
 
-The documentation is built using [Sphinx](http://sphinx-doc.org) and [reStructuredText](http://sphinx-doc.org/rest.html), and then hosted by [ReadTheDocs](http://jexus.lextudio.com).
+The documentation is built using [Sphinx](http://sphinx-doc.org) and [reStructuredText](http://sphinx-doc.org/rest.html), and then hosted by [ReadTheDocs](https://www.jexusmanager.com).
 
 ## Building the Docs ##
 

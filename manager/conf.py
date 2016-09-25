@@ -374,11 +374,11 @@ epub_exclude_files = ['search.html']
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {
-    'server': ('https://jexuswebserver.lextudio.com/en/latest', None)
+    'server': ('https://server.jexusmanager.com/en/latest', None)
 }
 
 feed_num_items = 15
 feed_skip_regex = '(.)*index'
-feed_base_url = 'https://jexus.lextudio.com/en/latest'
+feed_base_url = 'https://www.jexusmanager.com/en/latest'
 feed_description = 'Jexus Manager Documentation'
 feed_author = 'Lex Li'

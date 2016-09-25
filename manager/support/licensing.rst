@@ -30,7 +30,7 @@ non-commercial application or library for the sole purpose of allowing end-users
 Redistribution for other purposes requires written permission from the licensor.
 
 You may not make or distribute modifications to Jexus Manager, nor sub-license Jexus Manager, nor circumvent
-any paid edition usage restrictions described on the product pages at jexus.lextudio.com.
+any paid edition usage restrictions described on the product pages at https://www.jexusmanager.com.
 
 Collection of Information
 ^^^^^^^^^^^^^^^^^^^^^^^^^
