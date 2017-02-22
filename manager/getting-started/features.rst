@@ -13,14 +13,22 @@ Background
 ----------
 Jexus Manager is designed to be compatible with Microsoft IIS Manager. Though it is still in beta, many features are already well developed and tested.
 
+The management features require a specific server to be connected to, and then you can review or change settings.
+
 Default Servers
 ---------------
-Default server instances are displayed automatically. Jexus Manager detects their existence and shows them under Connections panel.
+Default server instances are displayed automatically if they are detected, so that they don't need to be manually added.
 
+Jexus Manager detects the following servers and shows them under Connections panel.
+
+Global IIS Express
+^^^^^^^^^^^^^^^^^^
 If a global IIS Express configuration file can be found at ``%userprofile%\documents\iisexpress\config\applicationhost.config`` or 
-``%userprofile%\my documents\iisexpress\config\applicationhost.config`` , a default server called "IIS Express" is automatically 
+``%userprofile%\my documents\iisexpress\config\applicationhost.config``, a default server called "IIS Express" is automatically 
 created by Jexus Manager.
 
+Local IIS
+^^^^^^^^^
 If local IIS is installed and its config file is at ``%windir%\system32\inetsrv\config\applicationhost.config``, a default server with the machine name is automatically created by Jexus Manager.
 
 Add New Servers
