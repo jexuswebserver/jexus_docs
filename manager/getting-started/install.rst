@@ -27,3 +27,5 @@ Related Resources
 -----------------
 
 - :doc:`/getting-started/features`
+- :doc:`/support/known-issues`
+- :doc:`/support/troubleshooting`

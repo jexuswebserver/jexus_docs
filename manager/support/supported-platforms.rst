@@ -20,3 +20,10 @@ Requirements
 * Local IIS installation is only required if you want to manage local IIS instance.
 * Jexus web server is only required if you want to manage Jexus.
 * IIS 10 Express (or IIS 8 Express, or IIS 7 Express) is required if you want to manage IIS Express.
+
+Related Resources
+-----------------
+
+- :doc:`/getting-started/install`
+- :doc:`/support/known-issues`
+- :doc:`/support/troubleshooting`

@@ -32,3 +32,11 @@ Professional Advisory services are provided for the same price as a Professional
 
 .. _Get Started: mailto:support@lextm.com
 .. _the support team:  mailto:support@lextm.com
+
+
+Related Resources
+-----------------
+
+- :doc:`/getting-started/install`
+- :doc:`/support/known-issues`
+- :doc:`/support/troubleshooting`

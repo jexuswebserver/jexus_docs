@@ -55,3 +55,14 @@ About how to connect to Jexus web server, please refer to previous documentation
 Since Jexus only has a few options (compared to IIS/IIS Express), only certain changes in Jexus Manager affects the configuration files on Jexus side. 
 More info can be found in [url:this article|https://jexus.codeplex.com/wikipage?title=Configuration%20Files]. The "Jexus Specific" page at each level 
 provides access to those settings that have no IIS equivalent.
+
+New Issues
+----------
+Issues can be reported at `GitHub <https://github.com/jexuswebserver/jexusmanager/issues>`_ .
+
+Related Resources
+-----------------
+
+- :doc:`/getting-started/install`
+- :doc:`/getting-started/features`
+- :doc:`/support/troubleshooting`

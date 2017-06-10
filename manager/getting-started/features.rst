@@ -93,3 +93,5 @@ Related Resources
 -----------------
 
 - :doc:`/getting-started/install`
+- :doc:`/support/known-issues`
+- :doc:`/support/troubleshooting`

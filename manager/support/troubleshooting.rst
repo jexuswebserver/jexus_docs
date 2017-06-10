@@ -82,3 +82,9 @@ Answer: If the exception details match below, then please make sure you pass a v
     at System.Net.EndPointManager.GetEPListener (System.String host, Int32 port, System.Net.HttpListener listener, Boolean secure) [0x00000] in <filename unknown>:0 
     at System.Net.EndPointManager.AddPrefixInternal (System.String p, System.Net.HttpListener listener) [0x00000] in <filename unknown>:0 
     at System.Net.EndPointManager.AddListener (System.Net.HttpListener listener) [0x00000] in <filename unknown>:0 
+
+Related Resources
+-----------------
+
+- :doc:`/getting-started/install`
+- :doc:`/support/known-issues`
