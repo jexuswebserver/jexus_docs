@@ -19,6 +19,12 @@ Self-signed certificates are usually used during testing.
 
 Self-Signed Certificate Wizard
 ------------------------------
+Jexus Manager's wizard is more powerful than the one IIS Manager offers as,
+
+* It allows you to specify a custom common name field (CN) for the certificate.
+* It offers SHA2 hashing method.
+* It sets SAN to the value of CN, so the generated certificate is Chrome friendly.
+
 In Jexus Manager, the self-signed certificate wizard can be opened as below,
 
 #. Choose a server node in the Connections panel.
