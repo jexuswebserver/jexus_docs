@@ -12,7 +12,7 @@ Jexus Manager is the management console designed for Jexus web server. It can al
 
 .. image:: _static/jexus.png
 
-It can be downloaded from `CodePlex <http://jexus.codeplex.com/releases/view/138373>`_ . 
+It can be downloaded from `GitHub <https://github.com/jexuswebserver/jexusmanager/releases>`_ . 
 
 The source code can now be found at `GitHub <https://github.com/jexuswebserver/JexusManager>`_ .
 
