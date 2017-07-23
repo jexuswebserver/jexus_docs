@@ -6,3 +6,4 @@ Getting Started
 
    install
    features
+   history
