@@ -53,7 +53,7 @@ Both local/remote Jexus web servers are supported. Currently this functionality 
 About how to connect to Jexus web server, please refer to previous documentation on [release:121174].
 
 Since Jexus only has a few options (compared to IIS/IIS Express), only certain changes in Jexus Manager affects the configuration files on Jexus side. 
-More info can be found in [url:this article|https://jexus.codeplex.com/wikipage?title=Configuration%20Files]. The "Jexus Specific" page at each level 
+More info can be found in [url:this article|http://jexuswebserver.readthedocs.io/en/latest/tutorials/configuration.html]. The "Jexus Specific" page at each level 
 provides access to those settings that have no IIS equivalent.
 
 New Issues

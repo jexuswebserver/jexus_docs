@@ -19,7 +19,7 @@ Jexus Manager requires .NET 4.5 and Windows Vista and above.
 
 Installation
 ------------
-#. Download the ZIP package from `CodePlex <https://jexus.codeplex.com/releases/view/138373>`_ .
+#. Download the ZIP package from `GitHub <https://github.com/jexuswebserver/JexusManager/releases>`_ .
 #. Unzip the package to a local folder.
 #. Execute JexusManager.exe to launch the utility.
 
