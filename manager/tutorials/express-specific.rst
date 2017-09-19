@@ -40,7 +40,20 @@ Simplest Approach
 
 Alternative Approach
 ^^^^^^^^^^^^^^^^^^^^
-(To be added.)
+.. note:: This approach only requires one time elevation to configure reserved URLs.
+
+#. Run Jexus Manager normally.
+#. Click the IIS Express server node you would like to manage.
+#. Click HTTP API icon in the middle.
+#. Switched to Reserved URLs tab.
+#. Add a reserved URL for the site binding (TODO). Elevation would be required.
+#. Under Sites node, choose a site.
+#. Click Bindings... menu item on Actions panel.
+#. In Edit Bindings dialog, choose a binding with "localhost" under "Host Name", and click Edit... button.
+#. In Edit Site Binding dialog, remove the host header value under "Host name:", leave it blank, and click OK.
+#. If a prompt says "The specific host name is not recommended for IIS Express...", click OK.
+#. In Edit Bindings dialog, click Close.
+#. Click Start menu item on Actions panel. This launches an IIS Express worker process with external access enabled.
 
 Further Explanation
 -------------------
