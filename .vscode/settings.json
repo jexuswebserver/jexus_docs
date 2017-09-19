@@ -1,4 +1,4 @@
 {
-    "restructuredtext.confPath" : "manager/conf.py",
-    "restructuredtext.builtDocumentationPath" : "manager/_build/html"
+    "restructuredtext.confPath" : "${workspaceRoot}/manager",
+    "restructuredtext.builtDocumentationPath" : "${workspaceRoot}/manager/_build/html"
 }

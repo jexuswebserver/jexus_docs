@@ -21,6 +21,27 @@ http://www.iis.net/learn/extensions/introduction-to-iis-express/iis-express-over
 
 It might contain the key information but some users could not understand it easily.
 
+External Access
+---------------
+IIS Express by default does not accept external requests. You can choose from the two approaches below to configure IIS Express to serve such requests.
+
+Simplest Approach
+^^^^^^^^^^^^^^^^^
+
+#. Run Jexus Manager as administrator. Then IIS Express worker processes launched by it can hook to http.sys automatically.
+#. Click the IIS Express server node you would like to manage.
+#. Under Sites node, choose a site.
+#. Click Bindings... menu item on Actions panel.
+#. In Edit Bindings dialog, choose a binding with "localhost" under "Host Name", and click Edit... button.
+#. In Edit Site Binding dialog, remove the host header value under "Host name:", leave it blank, and click OK.
+#. If a prompt says "The specific host name is not recommended for IIS Express...", click OK.
+#. In Edit Bindings dialog, click Close.
+#. Click Start menu item on Actions panel. This launches an IIS Express worker process with external access enabled.
+
+Alternative Approach
+^^^^^^^^^^^^^^^^^^^^
+(To be added.)
+
 Further Explanation
 -------------------
 
