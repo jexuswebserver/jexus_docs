@@ -21,8 +21,8 @@ http://www.iis.net/learn/extensions/introduction-to-iis-express/iis-express-over
 
 It might contain the key information but some users could not understand it easily.
 
-External Access
----------------
+Enable External Access
+----------------------
 IIS Express by default does not accept external requests. You can choose from the two approaches below to configure IIS Express to serve such requests.
 
 Simplest Approach
@@ -32,7 +32,7 @@ Simplest Approach
 #. Click the IIS Express server node you would like to manage.
 #. Under Sites node, choose a site.
 #. Click Bindings... menu item on Actions panel.
-#. In Edit Bindings dialog, choose a binding with "localhost" under "Host Name", and click Edit... button.
+#. In Edit Bindings dialog, choose a binding that says "localhost" under "Host Name", and click Edit... button.
 #. In Edit Site Binding dialog, remove the host header value under "Host name:", leave it blank, and click OK.
 #. If a prompt says "The specific host name is not recommended for IIS Express...", click OK.
 #. In Edit Bindings dialog, click Close.
@@ -45,11 +45,12 @@ Alternative Approach
 #. Run Jexus Manager normally.
 #. Click the IIS Express server node you would like to manage.
 #. Click HTTP API icon in the middle.
-#. Switched to Reserved URLs tab.
-#. Add a reserved URL for the site binding (TODO). Elevation would be required.
-#. Under Sites node, choose a site.
+#. Switched to Reserved URL tab.
+#. Click Add... menu item on Actions panel.
+#. In Add Reserved URL dialog, type the URL prefix (for example, "http://*:8080/") and click OK. Elevation would be required.
+#. Under Sites node, choose a site which has a site binding of "localhost on *:8080 (http)".
 #. Click Bindings... menu item on Actions panel.
-#. In Edit Bindings dialog, choose a binding with "localhost" under "Host Name", and click Edit... button.
+#. In Edit Bindings dialog, choose a binding that says "localhost" under "Host Name", and click Edit... button.
 #. In Edit Site Binding dialog, remove the host header value under "Host name:", leave it blank, and click OK.
 #. If a prompt says "The specific host name is not recommended for IIS Express...", click OK.
 #. In Edit Bindings dialog, click Close.
