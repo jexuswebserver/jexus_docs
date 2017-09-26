@@ -47,8 +47,8 @@ Alternative Approach
 #. Click HTTP API icon in the middle.
 #. Switched to Reserved URL tab.
 #. Click Add... menu item on Actions panel.
-#. In Add Reserved URL dialog, type the URL prefix (for example, "http://*:8080/") and click OK. Elevation would be required.
-#. Under Sites node, choose a site which has a site binding of "localhost on *:8080 (http)".
+#. In Add Reserved URL dialog, type the URL prefix (for example, "http://\*:8080/") and click OK. Elevation would be required.
+#. Under Sites node, choose a site which has a site binding of "localhost on \*:8080 (http)".
 #. Click Bindings... menu item on Actions panel.
 #. In Edit Bindings dialog, choose a binding that says "localhost" under "Host Name", and click Edit... button.
 #. In Edit Site Binding dialog, remove the host header value under "Host name:", leave it blank, and click OK.
@@ -64,7 +64,7 @@ Simplest Approach
 ^^^^^^^^^^^^^^^^^
 #. Run Jexus Manager normally.
 #. Click the IIS Express server node you would like to manage.
-#. Under Sites node, choose a site which would be exposed to Android Emulator (assume its binding is "localhost on *:8080 (http)").
+#. Under Sites node, choose a site which would be exposed to Android Emulator (assume its binding is "localhost on \*:8080 (http)").
 #. Click Bindings... menu item on Actions panel.
 #. In Edit Bindings dialog, choose a binding that says "localhost" under "Host Name", and click Edit... button.
 #. In Edit Site Binding dialog, replace the host header value under "Host name:" with "127.0.0.1" (without quotes), and click OK.
