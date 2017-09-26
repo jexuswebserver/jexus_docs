@@ -56,6 +56,31 @@ Alternative Approach
 #. In Edit Bindings dialog, click Close.
 #. Click Start menu item on Actions panel. This launches an IIS Express worker process with external access enabled.
 
+Enable Android Emulator Access
+------------------------------
+Sometimes application testing might requires mobile apps on Android Emulator to access web apps on IIS Express.
+
+Simplest Approach
+^^^^^^^^^^^^^^^^^
+#. Run Jexus Manager normally.
+#. Click the IIS Express server node you would like to manage.
+#. Under Sites node, choose a site which would be exposed to Android Emulator (assume its binding is "localhost on *:8080 (http)").
+#. Click Bindings... menu item on Actions panel.
+#. In Edit Bindings dialog, choose a binding that says "localhost" under "Host Name", and click Edit... button.
+#. In Edit Site Binding dialog, replace the host header value under "Host name:" with "127.0.0.1" (without quotes), and click OK.
+#. If a prompt says "The specific host name is not recommended for IIS Express...", click OK.
+#. In Edit Bindings dialog, click Close.
+#. Click Start menu item on Actions panel. This launches an IIS Express worker process.
+
+As Google Android Emulator sends HTTP requests with host header set to 127.0.0.1, after changing the binding the web site should be 
+accessible via http://10.0.2.2:8080 (Android Emulator forwards requests from 10.0.2.2 to the local IIS Express).
+
+.. note:: Other Android Emulator might require some extra steps or special input.
+
+Alternative Approach
+^^^^^^^^^^^^^^^^^^^^
+Follow "Enable External Access" section, and then the Android Emulator should be able to access the site.
+
 Further Explanation
 -------------------
 
