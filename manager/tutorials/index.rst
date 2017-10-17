@@ -7,6 +7,7 @@ Tutorials
    self-signed
    https-binding
    ssl-diagnostics
+   vs-diagnostics
    inplace-elevation
    express-specific
    local-iis
