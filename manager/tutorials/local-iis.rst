@@ -11,21 +11,20 @@ This page shows you how to use Jexus Manager to manage local IIS instance.
 
 Background
 ----------
-There are several issues with IIS Manager that you might not be able to use it to troubleshoot IIS configuration issues,
+There are several issues with IIS Manager that you might not be able to use it to troubleshoot IIS configuration issues，
 
 * IIS Manager strictly requires administrator permissions.
-* Some file errors will trigger an error dialog (or 500.19 error page) that tells nothing useful.
+* When a site configuration contains errors, IIS Manager shows an error dialog that tells nothing useful. (A 500.19 error 
+  page would be showed when accessing such a site.)
 
 .. image:: _static/iis_manager_error.png
 
 Jexus Manager Benefits
 ----------------------
 Jexus Manager can run as a normal user to navigate the settings, and its exception dialog provides the same or even better 
-error message when an error is detected.
+error message when an error in configuration is detected.
 
 .. image:: _static/jexus_manager_error.png
-
-.. note:: Jexus Manager current only provides read-only access to local IIS instance. No change in Jexus Manager is saved to IIS configuration file. Read-write access will be added in a future build.
 
 Related Resources
 -----------------
