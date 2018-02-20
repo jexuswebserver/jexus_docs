@@ -8,7 +8,7 @@ Tutorials
    https-binding
    ssl-diagnostics
    vs-diagnostics
-   link-diagnostics
+   binding-diagnostics
    inplace-elevation
    express-specific
    local-iis
