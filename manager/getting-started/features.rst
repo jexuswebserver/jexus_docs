@@ -85,7 +85,7 @@ Manage Servers
 --------------
 Once a server is added, sites and applications can be managed by choosing one of the categories in the middle panel.
 
-.. image:: /_static/jexus.png
+.. image:: _static/jexus.png
 
 .. note:: If the server node is not yet expanded for management, double click the node so that Jexus Manager tries to load its configuration.
 
