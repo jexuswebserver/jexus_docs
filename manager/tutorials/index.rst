@@ -9,6 +9,7 @@ Tutorials
    ssl-diagnostics
    vs-diagnostics
    binding-diagnostics
+   php-diagnostics
    inplace-elevation
    express-specific
    local-iis
