@@ -85,6 +85,9 @@ by default.
 
    Jexus Manager takes care of the rest to manage web sites and applications.
 
+   .. note:: For new projects/solutions, please debug/run them at least once
+      in Visual Studio, so that IIS Express configuration file can be added.
+
 #. Click Next button.
 
 #. Give this connectioni a unique and meaningful name.

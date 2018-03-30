@@ -1,4 +1,6 @@
 {
     "restructuredtext.confPath" : "${workspaceRoot}/manager",
-    "restructuredtext.builtDocumentationPath" : "${workspaceRoot}/manager/_build/html"
+    "restructuredtext.builtDocumentationPath": "${workspaceRoot}/manager/_build/html",
+    "restructuredtext.languageServer.disabled": false,
+    "restructuredtext.workspaceRoot": "/Users/lextm/jexus_docs"
 }
