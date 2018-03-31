@@ -38,6 +38,9 @@ If local IIS is installed and its config file is at
 ``%windir%\system32\inetsrv\config\applicationhost.config``, a default server
 with the machine name is automatically created by Jexus Manager.
 
+.. attention:: You have to run Jexus Manager as administrator so as to see the
+   local IIS node.
+
 Add New Servers
 ---------------
 Different types of servers can be added to Jexus Manager, which includes IIS
