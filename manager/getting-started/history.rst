@@ -33,3 +33,6 @@ made available on June 25, 2015.
 
 The 2.1 release candidates started to be available on July 11, 2017. On July
 22, the 2.1 final release was shipped.
+
+Due to a bug report in January 2018, Jexus Manager version number was bumped,
+and 12.0.0.0 release was shipped on January 4, 2018.
