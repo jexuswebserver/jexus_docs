@@ -11,16 +11,20 @@ This page shows you how to use Binding Diagnostics.
 
 Background
 ----------
-IIS sites use bindings to determine what kind of incoming HTTP requests they would handle. However, it is usually not intuitive to know
-what kind of requests go to which binding, without learning HTTP protocol itself and how web browser/IIS work together.
+IIS sites use bindings to determine what kind of incoming HTTP requests they
+would handle. However, it is usually not intuitive to know what kind of
+requests go to which binding, without learning HTTP protocol itself and how
+web browser/IIS work together.
 
 The Built-in Binding Diagnostics
 ----------------------------------------------
-For web sites opened in Jexus Manager, there is now a Diagnostics button showing in the Bindings dialog,
+For web sites opened in Jexus Manager, there is now a Binding Diagnostics
+menu item showing in the Actions panel under Troubleshooting section,
 
 .. image:: _static/bindings.png
 
-Click this button and the Diagnostics dialog shows. A report is generated when "Generate Report" button is clicked.
+Click this menu item and the Binding Diagnostics dialog shows. A report is
+generated when "Generate Report" button is clicked.
 
 .. image:: _static/binding_diag.png
 
