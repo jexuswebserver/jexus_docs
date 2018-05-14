@@ -1,5 +1,5 @@
-Install on Windows
-==================
+Install Jexus Manager on Windows
+================================
 
 By `Lex Li`_
 
