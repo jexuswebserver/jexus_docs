@@ -20,7 +20,7 @@ Install Mono Runtime
 --------------------
 Xamarin maintains the installation packages. Please follow `the guide <http://www.mono-project.com/docs/getting-started/install/linux/>`_ to install it and then execute
 
-.. code-block:: shell
+.. code-block:: text
 
   mono --version
 
@@ -31,7 +31,7 @@ Mono 4.2.2 and above is recommended version for all Linux/OS X if you know how t
 Download and Unpack Jexus Files
 -------------------------------
 
-.. code-block:: shell
+.. code-block:: text
 
   wget http://www.linuxdot.net/down/jexus-x.y.z.tar.gz
   tar -zxvf jexus-x.y.z.tar.gz
