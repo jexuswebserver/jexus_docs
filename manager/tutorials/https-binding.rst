@@ -12,6 +12,29 @@ Express HTTPS bindings.
 
 Background
 ----------
+When modern web browsers create an HTTPS connection to a web server like IIS,
+the initial SSL/TLS handshake packet contains the host name (matching the
+Host header in future HTTPS requests). This is the so called Server Name
+Indication (SNI).
+
+When Windows receives such a handshake packet, it relies on a few mappings in
+HTTP API to determine which server certificate to present in handshake
+response,
+
+1. Check SNI based mappings first. If any mapping matches the host name in
+the request, return the certificate in that mapping.
+1. If there is no SNI mapping matched, check IP based mappings. If the
+destination IP and port number of the request matches a mapping, return the
+certificate of that mapping.
+1. If no mapping matches at all, this HTTPS connection cannot be created.
+
+.. note:: If a web browser does not support SNI, then only IP based mappings
+   is scanned.
+
+So if you notice a wrong certificate is displayed in web browser when you
+navigate to a page, time to reveiw the mappings.
+
+Such mappings are usually created by IIS when you create HTTPS site bindings.
 If you have opened IIS 7+ configuration file (aka applicationHost.config)
 ever, you probably know that an HTTPS binding of a site looks like below,
 
@@ -29,12 +52,13 @@ ever, you probably know that an HTTPS binding of a site looks like below,
     </application>
   </site>
 
-It is rather strange that no certificate information is available here, while
+It might look strange that no certificate information is available here, while
 in Jexus Manager we can see the certificate selected for each bindings,
 
 .. image:: _static/https_binding.png
 
-So from where does Jexus Manager find the proper certificate?
+Jexus Manager also reads HTTP API mappings to determine which certificate to
+show.
 
 IP Based Bindings
 -----------------
