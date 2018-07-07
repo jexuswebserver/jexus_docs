@@ -1,9 +1,9 @@
-Managing Servers
-================
+Managing IIS Express Servers
+============================
 
 By `Lex Li`_
 
-This page shows you the main features of Jexus Manager.
+This page shows you how to add IIS Express servers in Jexus Manager.
 
 .. contents:: In this article:
   :local:
@@ -11,44 +11,24 @@ This page shows you the main features of Jexus Manager.
 
 Background
 ----------
-Jexus Manager is designed to be compatible with Microsoft IIS Manager. Though
-it is still in beta, many features are already well developed and tested.
-
-The management features require a specific server to be connected to, and then
-you can review or change settings.
-
-Default Servers
----------------
-Default server instances are displayed automatically if they are detected, so
-that they don't need to be manually added.
-
-Jexus Manager detects the following servers and shows them under Connections
-panel.
+You need to add an IIS Express server in Jexus Manager before managing its
+configuration.
 
 Global IIS Express
-^^^^^^^^^^^^^^^^^^
-If a global IIS Express configuration file can be found at
+------------------
+In older Visual Studio releases (such as 2012/2013), a global IIS Express
+configuration file can be found at
 ``%userprofile%\documents\iisexpress\config\applicationhost.config`` or
-``%userprofile%\my documents\iisexpress\config\applicationhost.config``, a
-default server called "IIS Express" is automatically created by Jexus Manager.
+``%userprofile%\my documents\iisexpress\config\applicationhost.config``.
 
-Local IIS
-^^^^^^^^^
-If local IIS is installed and its config file is at
-``%windir%\system32\inetsrv\config\applicationhost.config``, a default server
-with the machine name is automatically created by Jexus Manager.
-
-.. attention:: You have to run Jexus Manager as administrator so as to see the
-   local IIS node.
-
-Add New Servers
----------------
-Different types of servers can be added to Jexus Manager, which includes IIS
-Express and remote Jexus web servers.
+If Jexus Manager detects this file, a default server called "IIS Express" is
+automatically created and showed.
 
 Add IIS Express From Custom Configuration File
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-#. By clicking "File | Connect to a Server…” menu item, the wizard starts,
+----------------------------------------------
+An IIS Express server can be easily created from a custom configuration file.
+
+#. Click "File | Connect to a Server…” menu item, and a wizard starts,
 
    .. image:: _static/add_server_types.png
 
@@ -68,14 +48,19 @@ Add IIS Express From Custom Configuration File
 #. Click "Finish" button.
 
 Add IIS Express From Visual Studio 2015/2017 Solution File
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Visual Studio 2015/2017 adds custom IIS Express configuration to new projects
-at ``($SolutionDir)\.vs\config\applicationHost.config``, but this file is
-hidden by default.
+----------------------------------------------------------
+When you create a new web project in Visual Studio 2015/2017, the IDE adds a
+custom IIS Express configuration to the project folder at
+``($SolutionDir)\.vs\config\applicationHost.config``
 
-.. note:: IIS Express custom configuration is documented in `this blog post <http://blogs.msdn.com/b/webdev/archive/2015/04/29/new-asp-net-features-and-fixes-in-visual-studio-2015-rc.aspx>`_ .
+.. note:: This file (and the ``.vs`` folder) is hidden by default in Windows Explorer.
 
-#. By clicking "File | Connect to a Server…” menu item, the wizard starts,
+   IIS Express custom configuration is documented in `this blog post <http://blogs.msdn.com/b/webdev/archive/2015/04/29/new-asp-net-features-and-fixes-in-visual-studio-2015-rc.aspx>`_ .
+
+Jexus Manager allows you to add such a solution file as a new IIS Express
+server (so it automatically locates and reads the hidden configuration file).
+
+#. Click "File | Connect to a Server…” menu item, and a wizard starts,
 
    .. image:: _static/add_server_types.png
 
@@ -99,8 +84,8 @@ hidden by default.
 
 #. Click "Finish" button.
 
-Manage Servers
---------------
+Next Step
+---------
 Once a server is added, sites and applications can be managed by choosing one
 of the categories in the middle panel.
 
