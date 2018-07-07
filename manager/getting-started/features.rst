@@ -67,11 +67,11 @@ Add IIS Express From Custom Configuration File
 
 #. Click "Finish" button.
 
-Add IIS Express From Visual Studio 2015 Solution File
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Visual Studio 2015 adds custom IIS Express configuration to new projects at
-``($SolutionDir)\.vs\config\applicationHost.config``, but this file is hidden
-by default.
+Add IIS Express From Visual Studio 2015/2017 Solution File
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Visual Studio 2015/2017 adds custom IIS Express configuration to new projects
+at ``($SolutionDir)\.vs\config\applicationHost.config``, but this file is
+hidden by default.
 
 .. note:: IIS Express custom configuration is documented in `this blog post <http://blogs.msdn.com/b/webdev/archive/2015/04/29/new-asp-net-features-and-fixes-in-visual-studio-2015-rc.aspx>`_ .
 
