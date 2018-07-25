@@ -21,15 +21,19 @@ When Windows receives such a handshake packet, it relies on a few mappings in
 HTTP API to determine which server certificate to present in handshake
 response,
 
-1. Check SNI based mappings first. If any mapping matches the host name in
-the request, return the certificate in that mapping.
-1. If there is no SNI mapping matched, check IP based mappings. If the
-destination IP and port number of the request matches a mapping, return the
-certificate of that mapping.
-1. If no mapping matches at all, this HTTPS connection cannot be created.
+* Check SNI based mappings first. If any mapping matches the host name in
+  the request, return the certificate in that mapping.
+* If there is no SNI mapping matched, check IP based mappings. If the
+  destination IP and port number of the request matches a mapping, return the
+  certificate of that mapping.
+* If no mapping matches at all, this HTTPS connection cannot be created.
 
 .. note:: If a web browser does not support SNI, then only IP based mappings
-   is scanned.
+   is scanned. Examples: All browsers on Windows XP.
+
+.. note:: If your Windows is too old to support SNI, then only IP based
+   mappings is scanned. Examples: Windows Vista/Windows 7/Windows Server 2008/
+   Windows Server 2008 R2.
 
 So if you notice a wrong certificate is displayed in web browser when you
 navigate to a page, time to reveiw the mappings.
