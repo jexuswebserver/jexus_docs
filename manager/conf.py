@@ -386,7 +386,7 @@ feed_description = 'Jexus Manager Documentation'
 feed_author = 'Lex Li'
 
 if not on_rtd:
-    edit_on_github_project = 'obfuscar/docs'
+    edit_on_github_project = 'jexuswebserver/jexus_docs'
     edit_on_github_branch = 'master'
 
 def setup(app):
