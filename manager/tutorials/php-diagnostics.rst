@@ -35,6 +35,8 @@ A report is generated when "Generate Report" button is clicked.
 The report also provides reference links which might lead you to the right
 track.
 
+.. important:: PHP Manager for IIS is revived at http://www.phpmanager.xyz .
+
 Related Resources
 -----------------
 

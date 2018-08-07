@@ -11,21 +11,26 @@ This page shows you how Jexus Manager informs that UAC elevation is required.
 
 Background
 ----------
-Jexus Manager can run as a normal user to navigate the settings. Meanwhile, web servers such as IIS Express can run as a normal user.
+Jexus Manager can run as a normal user to navigate the settings. Meanwhile, web
+servers such as IIS Express can run as a normal user.
 
-However, there are certain operations that require administrator permissions to execute. Some examples are certificate creation and HTTP API modification.
+However, there are certain operations that require administrator permissions to
+execute. Some examples are certificate creation and HTTP API modification.
 
 Elevation Shield
 ----------------
-The UAC shield icon appears whenever some operations require administrator permissions. 
+The UAC shield icon appears whenever some operations require administrator
+permissions.
 
 .. image:: _static/elevation_binding.png
 
 .. image:: _static/elevation_remove.png
 
-By clicking such buttons, permission elevation is executed on demand. There is no need then to run Jexus Manager entirely as administrator.
+By clicking such buttons, permission elevation is executed on demand. There is
+no need then to run Jexus Manager entirely as administrator.
 
-For operations that do not require elevation, the buttons are displayed without the shield icon.
+For operations that do not require elevation, the buttons are displayed without
+the shield icon.
 
 .. image:: _static/normal_binding.png
 

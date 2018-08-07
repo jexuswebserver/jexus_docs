@@ -3,7 +3,8 @@ OOB Related 500.19 Errors
 
 By `Lex Li`_
 
-This page shows you how to use Jexus Manager to analyze IIS Out-Of-Band (OOB) related 500.19 errors.
+This page shows you how to use Jexus Manager to analyze IIS Out-Of-Band (OOB)
+related 500.19 errors.
 
 .. contents:: In this article:
   :local:
@@ -11,7 +12,8 @@ This page shows you how to use Jexus Manager to analyze IIS Out-Of-Band (OOB) re
 
 Background
 ----------
-IIS 7+ functionality can be extended by installing OOB modules. For example, the following configuration can be put in `web.config` of a web site,
+IIS 7+ functionality can be extended by installing OOB modules. For example,
+the following configuration can be put in `web.config` of a web site,
 
 .. code-block:: xml
 
@@ -27,8 +29,9 @@ IIS 7+ functionality can be extended by installing OOB modules. For example, the
       </rewrite>
     </system.webServer>
   </configuration>
-  
-It relies on IIS URL Rewrite module, which is a separate download. If the web server does not yet have the module installed, an error page would occur,
+
+It relies on IIS URL Rewrite module, which is a separate download. If the web
+server does not yet have the module installed, an error page would occur,
 
 .. image:: _static/oob_500.png
 
@@ -36,13 +39,15 @@ The error message does not reveal enough information, nor the root cause.
 
 Detailed Error Message by Jexus Manager
 ---------------------------------------
-If you use Jexus Manager to open this web site and check any of its settings (like Authentication), a thorough analysis is performed on `web.config`, and such issues 
-would be identified and reported
+If you use Jexus Manager to open this web site and check any of its settings
+(like Authentication), a thorough analysis is performed on `web.config`, and
+such issues would be identified and reported,
 
 .. image:: _static/oob_dialog.png
 
-Clearly Jexus Manager not only shows the exact line number in the config file, but also indicates the OOB module name and its download link. Simply follow the link
-to download and install the module, and the errors would disappear.
+Clearly Jexus Manager not only shows the exact line number in the config file,
+but also indicates the OOB module name and its download link. Simply follow the
+link to download and install the module, and the errors would disappear.
 
 Related Resources
 -----------------

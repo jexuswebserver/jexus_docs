@@ -64,6 +64,10 @@ in Jexus Manager we can see the certificate selected for each bindings,
 Jexus Manager also reads HTTP API mappings to determine which certificate to
 show.
 
+.. important:: All such can be done via equivalent ``netsh`` commands if you
+   rather not download and use such a visual tool. Ask Google to learn the
+   commands then.
+
 IP Based Bindings
 -----------------
 If “Require Server Name Indication” is not checked, then this binding is not
