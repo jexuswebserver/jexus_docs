@@ -17,7 +17,11 @@ settings go out of sync and you simply hit the famous errors such as "Unable to
 launch the IIS Express Web server".
 
 .. important:: You might spend enough time to dig into the different files on
-   your own to achieve the same goal.
+   your own to achieve the same goal,
+
+   * ``applicationHost.config`` for IIS Express.
+   * Project file ``.csproj``.
+   * ``launchSettings.json``.
 
 The Built-in Visual Studio Project Diagnostics
 ----------------------------------------------
