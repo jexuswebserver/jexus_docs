@@ -12,6 +12,34 @@ Express HTTPS bindings.
 
 Background
 ----------
+You probably wonder how IIS is able to serve HTTPS bindings for web sites,
+especially when the site bindings map to the same IP:port combination.
+
+For example, I have a server with a single IP address (``192.168.1.2``), and it
+hosts two sites, ``https://lextudio.com`` and ``https://sharpsnmp.com``. The
+relevant part in ``applicationHost.config`` file looks like below,
+
+.. code-block:: xml
+
+  <site name=”php” id=”8″>
+    <bindings>
+      <binding bindingInformation=”192.168.1.2:443:lextudio.com" protocol=”https” />
+    </bindings>
+    <application path=”/” applicationPool=”32bit”>
+      <virtualDirectory path=”/” physicalPath=”e:\test1” />
+    </application>
+  </site>
+  <site name=”php” id=”8″>
+    <bindings>
+      <binding bindingInformation=”192.168.1.2:443:sharpsnmp.com” protocol=”https” />
+    </bindings>
+    <application path=”/” applicationPool=”32bit”>
+      <virtualDirectory path=”/” physicalPath=”e:\test2” />
+    </application>
+  </site>
+
+Where are the certificates? And how does Windows pick up the right certificate?
+
 When modern web browsers create an HTTPS connection to a web server like IIS,
 the initial SSL/TLS handshake packet contains the host name (matching the
 Host header in future HTTPS requests). This is the so called Server Name
@@ -35,38 +63,26 @@ response,
    mappings is scanned. Examples: Windows Vista/Windows 7/Windows Server 2008/
    Windows Server 2008 R2.
 
+.. note:: Each SNI site bindings should have a corresponding SNI mapping in
+   HTTP API. Otherwise, there is something wrong.
+
+   The same does not apply to non-SNI site bindings, as they share the same IP
+   based mapping in HTTP API. So in IIS Manager/Jexus Manager if you changed
+   the certificate bind to such a site binding, remember you in fact changed a
+   mapping that affects multiple site bindings (more than the one you changed).
+
 So if you notice a wrong certificate is displayed in web browser when you
-navigate to a page, time to reveiw the mappings.
+navigate to a page, time to review the mappings.
 
-Such mappings are usually created by IIS when you create HTTPS site bindings.
-If you have opened IIS 7+ configuration file (aka applicationHost.config)
-ever, you probably know that an HTTPS binding of a site looks like below,
-
-.. code-block:: xml
-
-  <site name=”php” id=”8″>
-    <bindings>
-      <binding bindingInformation=”*:58000:localhost” protocol=”http” />
-      <binding bindingInformation=”*:44300:localhost” protocol=”https” />
-      <binding bindingInformation=”*:4431:localhost” protocol=”https” />
-      <binding bindingInformation=”*:4431:lextudio.com” protocol=”https” />
-    </bindings>
-    <application path=”/” applicationPool=”32bit”>
-      <virtualDirectory path=”/” physicalPath=”e:\test” />
-    </application>
-  </site>
-
-It might look strange that no certificate information is available here, while
-in Jexus Manager we can see the certificate selected for each bindings,
+The quickest way to check the mappings is to use Jexus Manager (more details
+below). Jexus Manager uses such mappings to display the correct certificate in
+binding dialog,
 
 .. image:: _static/https_binding.png
 
-Jexus Manager also reads HTTP API mappings to determine which certificate to
-show.
-
-.. important:: All such can be done via equivalent ``netsh`` commands if you
-   rather not download and use such a visual tool. Ask Google to learn the
-   commands then.
+.. important:: All can be done via equivalent ``netsh`` commands if you prefer 
+   not to download and use such a visual tool. Ask Google to learn the commands
+   then.
 
 IP Based Bindings
 -----------------
