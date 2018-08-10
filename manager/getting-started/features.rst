@@ -32,7 +32,7 @@ An IIS Express server can be easily created from a custom configuration file.
 
    .. image:: _static/add_server_types.png
 
-#. Choose IIS Express and click "Next" button.
+#. Choose IIS Express Configuration File and click "Next" button.
 
 #. Specify full path of the configuration file (.config) in the text box, or
    click "..." button to browse the file system,
@@ -53,7 +53,8 @@ When you create a new web project in Visual Studio 2015/2017, the IDE adds a
 custom IIS Express configuration to the project folder at
 ``($SolutionDir)\.vs\config\applicationHost.config``
 
-.. note:: This file (and the ``.vs`` folder) is hidden by default in Windows Explorer.
+.. note:: This file (and the ``.vs`` folder) is hidden by default in Windows
+   Explorer.
 
    IIS Express custom configuration is documented in `this blog post <http://blogs.msdn.com/b/webdev/archive/2015/04/29/new-asp-net-features-and-fixes-in-visual-studio-2015-rc.aspx>`_ .
 
@@ -64,12 +65,12 @@ server (so it automatically locates and reads the hidden configuration file).
 
    .. image:: _static/add_server_types.png
 
-#. Choose IIS Express and click "Next" button.
+#. Choose Visual Studio IIS Express Configuration File and click "Next" button.
 
 #. Specify full path of the solution file (.sln) in the text box, or click
    "..." button to browse the file system,
 
-   .. image:: _static/add_server_iis_express_file.png
+   .. image:: _static/add_server_vs.png
 
    Jexus Manager takes care of the rest to manage web sites and applications.
 
@@ -91,7 +92,8 @@ of the categories in the middle panel.
 
 .. image:: /_static/jexus.png
 
-.. note:: If the server node is not yet expanded for management, double click the node so that Jexus Manager tries to load its configuration.
+.. note:: If the server node is not yet expanded for management, double click
+   the node so that Jexus Manager tries to load its configuration.
 
 Related Resources
 -----------------
