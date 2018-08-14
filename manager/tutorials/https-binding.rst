@@ -107,6 +107,8 @@ only a single certificate can be registered. That’s why when we attempt to
 host multiple HTTPS sites on a single IP end point we could only use a
 wildcard certificate or a UC certificate.
 
+.. important:: Equivalent command line is ``netsh http show sslcert``.
+
 SNI Based Bindings
 ------------------
 Starting from Windows 8/IIS 8 and above, we can create SNI based in addition
@@ -122,6 +124,8 @@ Such SNI based mappings are automatically created by Jexus Manager when you
 add SNI based bindings to web sites. They are also removed automatically when
 such bindings are removed from sites.
 
+.. important:: Equivalent command line is ``netsh http show sslcert``.
+
 Reserved URLs
 -------------
 Reserved URLs are displayed under Reserved URL tab.
@@ -135,6 +139,8 @@ applications include Microsoft SQL Server Reporting Services.
 
 Reservations can conflict with each other, and that can lead to problems
 like IIS/IIS Express cannot start to monitor certain site bindings.
+
+.. important:: Equivalent command line is ``netsh http show urlacl``.
 
 Related Resources
 -----------------
