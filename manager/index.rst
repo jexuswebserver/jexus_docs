@@ -8,16 +8,16 @@
 Jexus Manager Documentation
 ===========================
 
-Jexus Manager is the management console designed for Jexus web server， IIS
-Express and local IIS instances.
+Jexus Manager is the management console designed for IIS
+Express, local IIS instances, and Jexus web server.
 
 .. image:: _static/jexus.png
 
-It can be downloaded from `GitHub <https://github.com/jexuswebserver/jexusmanager/releases>`_ .
+The downloads can be found along with `the release notes <https://github.com/jexuswebserver/jexusmanager/releases>`_ .
 
-The source code can now be found at `GitHub <https://github.com/jexuswebserver/JexusManager>`_ .
+The source code is hosted on `GitHub <https://github.com/jexuswebserver/JexusManager>`_ .
 
-Issues can be reported at `GitHub <https://github.com/jexuswebserver/jexusmanager/issues>`_ .
+Please report issues to `the Issues section <https://github.com/jexuswebserver/jexusmanager/issues>`_ .
 
 Topics
 ------
