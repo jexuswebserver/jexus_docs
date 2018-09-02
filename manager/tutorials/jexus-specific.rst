@@ -12,7 +12,11 @@ This page shows you how to use Jexus Manager to manage Jexus specific settings.
 Background
 ----------
 Jexus web server does have some special settings that are not yet mapped to IIS
-configuration system.
+configuration system. However, Jexus Manager hasn't been tested against Jexus
+web server for a long time, so the related code might not work as expected.
+
+More information can be found from
+`Remote Services release page <https://github.com/jexuswebserver/jxmgr/releases/tag/v1.0>`_.
 
 Jexus Page
 ----------
