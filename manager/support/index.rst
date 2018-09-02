@@ -9,4 +9,4 @@ Support Information
    known-issues
    troubleshooting
    licensing
-   services
+   Support Services <http://support.lextudio.com>
