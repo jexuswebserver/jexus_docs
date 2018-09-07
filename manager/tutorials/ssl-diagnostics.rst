@@ -11,25 +11,29 @@ This page shows you how to use SSL Diagnostics.
 
 Background
 ----------
+There were either official or unofficial tools from Microsoft called SSL
+Diagnostics.
+
 IIS 6 used to have a great suite of troubleshooting tools. One of them was for
 SSL related diagnostics, called `SSL Diagnostics (SSL Diag or SSLDiag for short
-) <https://technet.microsoft.com/en-us/library/cc780913(v=ws.10).aspx>`_ .
+) <https://technet.microsoft.com/en-us/library/cc780913(v=ws.10).aspx>`_ . As
+it was designed for IIS 6 and relied on IIS ADSI API (which is now obsolete),
+this tool was not made available for IIS 7 and above.
 
-As SSLDiag was designed for IIS 6 and relied on IIS ADSI API (which is now
-obsolete), this tool was not made available for IIS 7 and above.
+.. note:: Of course you can use the IIS 6 version if you enable IIS 6
+   Compatibility component on IIS 7 and above, but it would be less convenient.
 
-Of course you can use the IIS 6 version if you enable IIS 6 Compatibility
-component on IIS 7 and above, but it would be less convenient.
-
-A Microsoft employee Vijayshinva Karnure developed a newer version that relied
-only on IIS 7+ new API, and `released it on IIS.net
+Later, a Microsoft employee Vijayshinva Karnure developed a newer version that
+relied only on IIS 7+ new API, and `released it on IIS.net
 <https://www.iis.net/downloads/community/2009/09/ssl-diagnostics-tool-for-iis-7>`_ .
-
 It works for all IIS versions (up to 10), but it does not work for IIS Express.
 
-.. note:: The previous tools were designed without SHA-2 and recent SSL/TLS
-   best practices in mind. Their reports can simply miss recent warnings on
-   obsolete SHA-1 certificates and obsolete protocols like SSL 3.0.
+.. important:: The previous tools were designed without SHA-2 and recent
+   SSL/TLS best practices in mind. Their reports can simply miss recent
+   warnings on obsolete SHA-1 certificates and obsolete protocols like SSL 3.0.
+
+So what if you want a modern tool to troubleshoot SSL/TLS issues on IIS and
+especially IIS Express? Jexus Manager fills the gaps.
 
 The Built-in SSL Diagnostics in Jexus Manager
 ---------------------------------------------
