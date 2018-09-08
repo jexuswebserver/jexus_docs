@@ -1,5 +1,5 @@
-SSL Diagnostics
-===============
+SSL Diagnostics for IIS/IIS Express
+===================================
 
 By `Lex Li`_
 

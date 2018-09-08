@@ -1,5 +1,5 @@
-Binding Diagnostics
-===================
+Binding Diagnostics for IIS/IIS Express
+=======================================
 
 By `Lex Li`_
 

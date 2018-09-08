@@ -1,5 +1,5 @@
-PHP Diagnostics
-===============
+PHP Diagnostics for IIS/IIS Express
+===================================
 
 By `Lex Li`_
 
