@@ -21,20 +21,20 @@ relevant part in ``applicationHost.config`` file looks like below,
 
 .. code-block:: xml
 
-  <site name=”php” id=”8″>
+  <site name="php" id="8">
     <bindings>
-      <binding bindingInformation=”192.168.1.2:443:lextudio.com" protocol=”https” />
+      <binding bindingInformation="192.168.1.2:443:lextudio.com" protocol="https" />
     </bindings>
-    <application path=”/” applicationPool=”32bit”>
-      <virtualDirectory path=”/” physicalPath=”e:\test1” />
+    <application path="/" applicationPool="32bit">
+      <virtualDirectory path="/" physicalPath="e:\test1" />
     </application>
   </site>
-  <site name=”php” id=”8″>
+  <site name="php" id="8">
     <bindings>
-      <binding bindingInformation=”192.168.1.2:443:sharpsnmp.com” protocol=”https” />
+      <binding bindingInformation="192.168.1.2:443:sharpsnmp.com" protocol="https" />
     </bindings>
-    <application path=”/” applicationPool=”32bit”>
-      <virtualDirectory path=”/” physicalPath=”e:\test2” />
+    <application path="/" applicationPool="32bit">
+      <virtualDirectory path="/" physicalPath="e:\test2" />
     </application>
   </site>
 
@@ -86,7 +86,7 @@ binding dialog,
 
 IP Based Bindings
 -----------------
-If “Require Server Name Indication” is not checked, then this binding is not
+If "Require Server Name Indication" is not checked, then this binding is not
 SNI enabled. It also means for this binding, the certificate is registered to
 the IP address + port number (in this example, ``0.0.0.0:44300``). Windows
 stores the certificate information in a private storage for http.sys to read,

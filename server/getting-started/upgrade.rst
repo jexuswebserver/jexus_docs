@@ -17,7 +17,7 @@ Download and Unpack Jexus Files
   wget http://www.linuxdot.net/down/jexus-x.y.z.tar.gz
   tar -zxvf jexus-x.y.z.tar.gz
 
-Jexus binary package is downloaded from its official site, and extracted to a folder named “jexus-x.y.z″ after this step.
+Jexus binary package is downloaded from its official site, and extracted to a folder named "jexus-x.y.z" after this step.
 
 Stop Current Jexus Server
 -------------------------
@@ -48,9 +48,9 @@ Fix Startup Commands
 
 Press i on keyboard to enter edit mode.
 
-If previous start command “/usr/jexus/jws.start” exists, replace it with “/usr/jexus/jws start”.
+If previous start command "/usr/jexus/jws.start" exists, replace it with "/usr/jexus/jws start".
 
-Remove “/usr/jexus/state.start” if it presents.
+Remove "/usr/jexus/state.start" if it presents.
 
 Press Esc on keyboard to exit edit mode.
 

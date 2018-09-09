@@ -51,7 +51,7 @@ Create Default Web Site
 
 Press ``i`` on keyboard to enter edit mode.
 
-Type “Hello World from Jexus” and press Esc on keyboard to exit edit mode.
+Type "Hello World from Jexus" and press Esc on keyboard to exit edit mode.
 
 Type ``:wq`` and press Enter on keyboard to exit vi.
 

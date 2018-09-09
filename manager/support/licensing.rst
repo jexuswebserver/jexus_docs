@@ -21,7 +21,7 @@ consequential damages.
 
 End User License Agreement
 --------------------------
-Lex Li (the “licensor”) grants you (the “licensee”) a nonexclusive license to
+Lex Li (the "licensor") grants you (the "licensee") a nonexclusive license to
 use Jexus Manager, for personal and commercial use. The licensor retains
 all intellectual ownership of Jexus Manager.
 

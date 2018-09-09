@@ -28,7 +28,7 @@ Add IIS Express From Custom Configuration File
 ----------------------------------------------
 An IIS Express server can be easily created from a custom configuration file.
 
-#. Click "File | Connect to a Server…” menu item, and a wizard starts,
+#. Click "File | Connect to a Server…" menu item, and a wizard starts,
 
    .. image:: _static/add_server_types.png
 
@@ -67,7 +67,7 @@ JetBrains Rider uses a similar approach, and it puts the configuration file at
 Jexus Manager allows you to add such a solution file as a new IIS Express
 server (so it automatically locates and reads the hidden configuration files).
 
-#. Click "File | Connect to a Server…” menu item, and a wizard starts,
+#. Click "File | Connect to a Server…" menu item, and a wizard starts,
 
    .. image:: _static/add_server_types.png
 
