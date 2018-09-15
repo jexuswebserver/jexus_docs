@@ -57,7 +57,7 @@ And if we add a second site,
   </sites>
 
 Then HTTP.sys forwards all HTTP requests with host header of "lextudio.com" to
-the second site, while all rest HTTP requests still go to the first site.
+the second site, while all other HTTP requests still go to the first site.
 
 It requires experience to fully understand the concepts of site bindings and
 how the HTTP request forwarding works especially when there are multiple sites
