@@ -72,6 +72,12 @@ via curl or WFetch.
 * Verb: GET
 * Header: "X-HTTP-Authorization: jexus|lextudio.com"
 
+.. note:: The curl command can be
+
+   .. code-block:: text
+
+      curl --header "X-HTTP-Authorization: jexus|lextudio.com" -k https://192.168.18.129:8088/api/server
+
 The server should reply with 200 if configuration is correct.
 
 What if client side reports connection failure and the error message is not clear enough?
