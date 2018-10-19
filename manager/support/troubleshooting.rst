@@ -46,6 +46,23 @@ the following command,
 You can see the "inet address" for each network adapters, and learn which are
 the valid IP addresses you can use in service address.
 
+.. note:: ``netstat`` can be used to make sure the remote services instance is
+   monitoring the service address.
+
+   For example, if the remote services instance is launched by the following
+   command,
+
+   .. code-block:: text
+
+      mono RemoteServicesHost.exe https://0.0.0.0:8088
+
+   then run ``netstat`` should show that TCP port 8088 is being listened at,
+
+   .. code-block:: text
+
+      netstat -an | grep "LISTEN "
+      tcp     0     0 0.0.0.0:8088      0.0.0.0:*       LISTEN
+
 The port number used in service address must have a server certificate
 registered. Otherwise, the client cannot make an HTTPS connection to the
 server side.
@@ -61,6 +78,13 @@ then TCP access to that port must be registered as an exception.
 If the client/server connection goes through the Internet, you should be even
 more caution that sometimes the connection can be blocked unexpectedly. Try to
 use another port number (such as ``12345``) and try again.
+
+.. note:: On Ubuntu the following command can be used if you use the default
+   firewall,
+
+   .. code-block:: text
+
+      sudo ufw allow 8088
 
 REST Test
 ^^^^^^^^^
