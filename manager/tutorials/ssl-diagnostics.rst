@@ -15,9 +15,9 @@ There were either official or unofficial tools from Microsoft called SSL
 Diagnostics.
 
 IIS 6 used to have a great suite of troubleshooting tools. One of them was for
-SSL related diagnostics, called `SSL Diagnostics (SSL Diag or SSLDiag for short
-) <https://technet.microsoft.com/en-us/library/cc780913(v=ws.10).aspx>`_ . As
-it was designed for IIS 6 and relied on IIS ADSI API (which is now obsolete),
+SSL related diagnostics, called `SSL Diagnostics (SSL Diag or SSLDiag for
+short) <https://technet.microsoft.com/en-us/library/cc780913(v=ws.10).aspx>`_ .
+As it was designed for IIS 6 and relies on IIS ADSI API (which is obsolete),
 this tool was not made available for IIS 7 and above.
 
 .. note:: Of course you can use the IIS 6 version if you enable IIS 6
@@ -65,5 +65,6 @@ Related Resources
 - :doc:`/getting-started/install`
 - :doc:`/getting-started/features`
 - :doc:`/tutorials/https-binding`
+- :doc:`/tutorials/binding-diagnostics`
 - :doc:`/tutorials/inplace-elevation`
 - :doc:`/tutorials/self-signed`

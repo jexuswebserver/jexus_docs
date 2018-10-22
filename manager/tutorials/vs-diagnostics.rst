@@ -47,5 +47,7 @@ Related Resources
 - :doc:`/getting-started/install`
 - :doc:`/getting-started/features`
 - :doc:`/tutorials/https-binding`
+- :doc:`/tutorials/binding-diagnostics`
+- :doc:`/tutorials/ssl-diagnostics`
 - :doc:`/tutorials/inplace-elevation`
 - :doc:`/tutorials/self-signed`

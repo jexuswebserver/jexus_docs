@@ -80,7 +80,7 @@ binding dialog,
 
 .. image:: _static/https_binding.png
 
-.. important:: All can be done via equivalent ``netsh`` commands if you prefer 
+.. important:: All can be done via equivalent ``netsh`` commands if you prefer
    not to download and use such a visual tool. Ask Google to learn the commands
    then.
 
@@ -132,13 +132,18 @@ Reserved URLs are displayed under Reserved URL tab.
 
 .. image:: _static/reserved_urls.png
 
-.. note:: Microsoft has more information about reserved URLs `here <https://docs.microsoft.com/en-us/iis/extensions/using-iis-express/handling-url-binding-failures-in-iis-express>`_ .
+.. note:: Microsoft has more information about reserved URLs
+   `here <https://docs.microsoft.com/en-us/iis/extensions/using-iis-express/handling-url-binding-failures-in-iis-express>`_ .
 
 Many applications would register their own URL reservations. Typical
 applications include Microsoft SQL Server Reporting Services.
 
 Reservations can conflict with each other, and that can lead to problems
 like IIS/IIS Express cannot start to monitor certain site bindings.
+
+.. note:: When troubleshooting conflicts, reserved URLs only provide partial
+   information. A process running as administrator can hook to Windows HTTP API
+   without any reservation (like a Windows service).
 
 .. important:: Equivalent command line is ``netsh http show urlacl``.
 
@@ -150,3 +155,4 @@ Related Resources
 - :doc:`/tutorials/self-signed`
 - :doc:`/tutorials/inplace-elevation`
 - :doc:`/tutorials/ssl-diagnostics`
+- :doc:`/tutorials/tutorials/binding-diagnostics`
