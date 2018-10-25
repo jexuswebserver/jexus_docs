@@ -7,4 +7,5 @@ Getting Started
    install
    features
    iis
+   jexus
    history
