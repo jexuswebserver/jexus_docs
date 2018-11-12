@@ -112,7 +112,7 @@ Application Pools
 ^^^^^^^^^^^^^^^^^
 Though IIS Express uses the same format of configuration file (
 ``applicationHost.config``), and each web sites has an application pool
-assigned, it does not support application pool at all. Every time an IIS
+assigned, it does not support true application pool at all. Every time an IIS
 Express instance is launched, it always uses the current user's credentials,
 and ignore the identity setting in ``applicationHost.config``.
 
@@ -122,6 +122,35 @@ different from application pool recycle (which by default uses the overlapped
 mode).
 
 This is what Microsoft means by saying "user launches and terminates sites".
+
+.. note:: Alternatively, you might assume that IIS Express has only a default
+   application pool (while on IIS you can have many pools), and this pool has
+   only a single worker process (``iisexpress.exe``).
+
+Bitness
+^^^^^^^
+IIS allows application pools to run in 32 bit or 64 bit, which can be set via
+``enable32BitAppOnWin64`` attribute.
+
+.. note:: More information can be found from 
+   `this article <https://docs.microsoft.com/en-us/iis/configuration/system.applicationhost/applicationpools/add/>`_ 
+
+However, for IIS Express the bitness is controlled by the bitness of
+``iisexpress.exe``.
+
+.. note:: IIS 8 Express and above install both 32 and 64 bit of the executable.
+
+   Also note that IIS 7 Express only has 32 bit executable. So it does not
+   run 64 bit web apps.
+
+Effective Settings
+^^^^^^^^^^^^^^^^^^
+Only a limited set of application pool settings are supported by IIS Express.
+Common ones are,
+
+* ``CLRConfigFile``
+* ``managedPipelineMode``
+* ``managedRuntimeVersion``
 
 Related Resources
 -----------------
