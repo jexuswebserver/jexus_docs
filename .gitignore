@@ -1,2 +1,2 @@
 **/_build/
-/manager/_ext/__pycache__
+*.pyc
