@@ -19,6 +19,10 @@ certificates ahead.
 
 Self-signed certificates are usually used during testing.
 
+.. note:: Instead of using tools like Jexus Manager, you can use PowerShell to
+   generate self-signed certificates with customization. Please refer to
+   `Microsoft Docs <https://docs.microsoft.com/en-us/powershell/module/pkiclient/new-selfsignedcertificate>`_ .
+
 Self-Signed Certificate Wizard
 ------------------------------
 Jexus Manager's wizard is more powerful than the one IIS Manager offers, so
