@@ -13,8 +13,6 @@ Background
 ----------
 IIS Express is a development server that behaves differently from full IIS.
 
-Microsoft Documentation
------------------------
 Microsoft has listed several key differences in the article below,
 
 http://www.iis.net/learn/extensions/introduction-to-iis-express/iis-express-overview
@@ -26,6 +24,9 @@ Enable External Access
 ----------------------
 IIS Express by default does not accept external requests. You can choose from
 the two approaches below to configure IIS Express to serve such requests.
+
+.. note:: Microsoft has `its own tutorial <https://docs.microsoft.com/en-us/iis/extensions/using-iis-express/handling-url-binding-failures-in-iis-express#serving-external-traffic>`_
+   showing the manual steps. Jexus Manager helps automate them.
 
 Simplest Approach
 ^^^^^^^^^^^^^^^^^
