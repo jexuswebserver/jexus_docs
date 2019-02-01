@@ -53,17 +53,32 @@ store.
 
 To Trust Self-Signed Certificate
 --------------------------------
-Once a self-signed certificate is generated, it would be sometimes useful to
-add it to Trusted Certificate Authorities so that browser side errors are
-suppressed. This applies to Internet Explorer, Chrome, and Edge.
+A self-signed certificate is not trusted anywhere by default. It would be
+sometimes useful to let browsers trust such and suppress certain warnings.
 
-Jexus Manager makes it easy to do so,
+For browsers like Internet Explorer, Chrome, and Edge, the self-signed
+certificate can be installed to Trusted Certificate Authorities store of the
+current user account.
+
+Jexus Manager is capable of automating such,
 
 #. Choose the self-signed certificate from the list.
 #. Under Actions panel, click "Trust Self-Signed Certificate".
 #. Accept the certificate in the following system dialog.
 
 .. image:: _static/trust.png
+
+.. note:: Behind the scene, Jexus Manager exports the certificate from My store
+   of the machine account, and install it to Trusted Certificate Authorities
+   store of the current user account.
+
+   If you want to manually achieve the same, then you should learn how to use
+   the MMC snap-in from
+   `Microsoft Doc <https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in>`_ .
+
+   If you want other machines to trust a self-signed certificate, perform the
+   same on each of them. However, a valid certificate issued by domain CA or an
+   external CA is recommended.
 
 Related Resources
 -----------------
