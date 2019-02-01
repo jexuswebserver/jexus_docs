@@ -60,7 +60,7 @@ For browsers like Internet Explorer, Chrome, and Edge, the self-signed
 certificate can be installed to Trusted Certificate Authorities store of the
 current user account.
 
-Jexus Manager is capable of automating such,
+Jexus Manager is capable of automating such on the current machine,
 
 #. Choose the self-signed certificate from the list.
 #. Under Actions panel, click "Trust Self-Signed Certificate".
@@ -76,9 +76,10 @@ Jexus Manager is capable of automating such,
    the MMC snap-in from
    `Microsoft Doc <https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in>`_ .
 
-   If you want other machines to trust a self-signed certificate, perform the
-   same on each of them. However, a valid certificate issued by domain CA or an
-   external CA is recommended.
+.. note:: If you want other machines to trust a self-signed certificate,
+   perform the same on each of them. However, a valid certificate issued by
+   domain CA or an external CA is recommended, as they are usually trusted by
+   Windows by default.
 
 Related Resources
 -----------------
