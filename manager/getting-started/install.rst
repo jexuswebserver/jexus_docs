@@ -17,16 +17,28 @@ Supported Platforms
 -------------------
 Jexus Manager requires a machine that meets the following requirements,
 
-* .NET Framework 4.5 or above is installed.
+* .NET Framework 4.6 or above is installed.
 * Windows 7 and above as client OS.
 * Windows Server 2008 and above as server OS.
 
-Installation
-------------
-#. Download the ZIP package ``JexusManager.zip`` from `the latest release on
-   GitHub <https://github.com/jexuswebserver/JexusManager/releases>`_ .
-#. Unzip the package to a local folder.
-#. Execute ``JexusManager.exe`` to launch the utility.
+MSI Based Installation
+----------------------
+#. Download the MSI installer ``JexusManager_x64.msi`` or
+   ``JexusManager_x86.msi`` from `the latest release on GitHub <https://github.com/jexuswebserver/JexusManager/releases>`_ .
+#. Install from the MSI installer.
+#. Launch Jexus Manager from Start menu.
+
+.. note:: If some conditions do not meet, the MSI installer will display an
+   error message and indicate how to resolve them.
+
+Portable Installation
+---------------------
+In certain cases, you might not be able to execute the MSI installer on some
+machines (such as without administrator permissions). Then,
+
+#. Install Jexus Manager from the MSI installer on a spare machine.
+#. Copy all files in the installation folder to the target machine.
+#. Double click ``JexusManager.exe`` to launch Jexus Manager.
 
 Related Resources
 -----------------
