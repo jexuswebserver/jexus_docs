@@ -59,6 +59,10 @@ And if we add a second site,
 Then HTTP.sys forwards all HTTP requests with host header of "lextudio.com" to
 the second site, while all other HTTP requests still go to the first site.
 
+.. important:: If the site binding contains an IP address, make sure that IP
+   address belongs to one of the network adapters of this machine. Using an
+   invalid IP address only leads to an invalid binding.
+
 It requires experience to fully understand the concepts of site bindings and
 how the HTTP request forwarding works especially when there are multiple sites
 on the same machine. Without learning HTTP protocol itself and how
