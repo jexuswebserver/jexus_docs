@@ -1,10 +1,9 @@
 {
-    "restructuredtext.builtDocumentationPath": "${workspaceRoot}/manager/_build/html",
+    "restructuredtext.builtDocumentationPath": "${env:TEST}/manager/_build/html",
     "restructuredtext.languageServer.disabled": false,
     "restructuredtext.workspaceRoot": "/Users/lextm/jexus_docs",
     "editor.rulers": [
         79
     ],
-    "python.pythonPath": "/usr/local/bin/python3",
-    "restructuredtext.confPath": "/Users/lextm/jexus_docs/manager"
+    "restructuredtext.confPath": "${workspaceFolder}/manager"
 }

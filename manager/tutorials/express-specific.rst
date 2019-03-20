@@ -15,7 +15,7 @@ IIS Express is a development server that behaves differently from full IIS.
 
 Microsoft has listed several key differences in the article below,
 
-http://www.iis.net/learn/extensions/introduction-to-iis-express/iis-express-overview
+https://docs.microsoft.com/en-us/iis/extensions/introduction-to-iis-express/iis-express-overview
 
 It might contain the key information but some users could not understand it
 easily.

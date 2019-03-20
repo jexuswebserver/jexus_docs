@@ -56,7 +56,7 @@ custom IIS Express configuration file to the project folder at
 .. note:: This file (and the ``.vs`` folder) is hidden by default in Windows
    Explorer.
 
-   IIS Express custom configuration is documented in `this blog post <http://blogs.msdn.com/b/webdev/archive/2015/04/29/new-asp-net-features-and-fixes-in-visual-studio-2015-rc.aspx>`_ .
+   IIS Express custom configuration is documented in `this blog post <https://blogs.msdn.com/b/webdev/archive/2015/04/29/new-asp-net-features-and-fixes-in-visual-studio-2015-rc.aspx>`_ .
 
 JetBrains Rider uses a similar approach, and it puts the configuration file at
 ``($SolutionDir)\.idea\config\applicationHost.config``.

@@ -19,7 +19,7 @@ Jexus Web Server and Remote Services
 Jexus web server is a Linux based web server to run ASP.NET/PHP applications.
 
 More information about it can be found
-`here <http://server.jexusmanager.com/>`_ .
+`here <https://server.jexusmanager.com/>`_ .
 
 To enable Jexus Manager to connect and manage Jexus web server, a server side
 component, aka Remote Services, must be installed and configured in advance.
