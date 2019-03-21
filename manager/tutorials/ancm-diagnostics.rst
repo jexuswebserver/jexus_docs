@@ -1,5 +1,5 @@
-ASP.NET Core Diagnostics
-========================
+ASP.NET Core Diagnostics for IIS/IIS Express
+============================================
 
 By `Lex Li`_
 

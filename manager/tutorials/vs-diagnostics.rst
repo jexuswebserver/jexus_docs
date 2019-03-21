@@ -1,5 +1,5 @@
-Visual Studio Project Diagnostics
-=================================
+Visual Studio Project Diagnostics for IIS/IIS Express
+=====================================================
 
 By `Lex Li`_
 
