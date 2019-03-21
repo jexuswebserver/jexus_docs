@@ -9,6 +9,7 @@ Tutorials
    ssl-diagnostics
    vs-diagnostics
    binding-diagnostics
+   ancm-diagnostics
    php-diagnostics
    inplace-elevation
    express-specific
