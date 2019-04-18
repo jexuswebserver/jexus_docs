@@ -12,9 +12,11 @@ This page shows you how to use ASP.NET Core Diagnostics.
 Background
 ----------
 An ASP.NET Core web app requires certain setup before being executed properly.
-However, the configuration steps are complex and certain things might be
-neglected. A diagnostics tool can reveal typical configuration mistakes and
-help resolve them.
+However, the configuration steps are complex and critical settings might be
+neglected, which leads to failed deployment and miserable issues.
+
+A thorough diagnostics tool can reveal typical configuration mistakes and help
+resolve them.
 
 The Built-in ASP.NET Core Diagnostics
 -------------------------------------
