@@ -31,6 +31,7 @@ Typical things analyzed by ASP.NET Core Diagnostics,
 * Visual C++ 2015 runtime.
 * Application pool (No Managed Code).
 * Handler in web.config.
+* Web app runtime version.
 
 Related Resources
 -----------------
