@@ -13,10 +13,19 @@ Background
 ----------
 An ASP.NET Core web app requires certain setup before being executed properly.
 However, the configuration steps are complex and critical settings might be
-neglected, which leads to failed deployment and miserable issues.
+neglected, which leads to failed deployment and miserable issues such as 502.5,
+
+* ASP.NET Core module is not installed.
+* ASP.NET Core module version does not match the minimal version required by
+  the web apps.
+* Visual C++ 2015 runtime is not installed.
+* Handler setting in ``web.config`` is invalid.
 
 A thorough diagnostics tool can reveal typical configuration mistakes and help
 resolve them.
+
+.. note:: Minimal ASP.NET Core module version required can be found in articles
+   like `this <http://https://dotnet.microsoft.com/download/dotnet-core/2.2>`_.
 
 The Built-in ASP.NET Core Diagnostics
 -------------------------------------
