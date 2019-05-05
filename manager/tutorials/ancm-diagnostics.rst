@@ -20,6 +20,7 @@ neglected, which leads to failed deployment and miserable issues such as 502.5,
   the web apps.
 * Visual C++ 2015 runtime is not installed.
 * Handler setting in ``web.config`` is invalid.
+* In-process module has no access to the content folder.
 
 A thorough diagnostics tool can reveal typical configuration mistakes and help
 resolve them.
