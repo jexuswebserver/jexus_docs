@@ -37,7 +37,7 @@ A report is generated when "Generate Report" button is clicked.
 
 .. image:: _static/ancm_diag.png
 
-Typical things analyzed by ASP.NET Core Diagnostics,
+Typical things analyzed by ASP.NET Core Diagnostics include but not limited to,
 
 * ASP.NET Core module on IIS.
 * Visual C++ 2015 runtime.
