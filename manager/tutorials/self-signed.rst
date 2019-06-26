@@ -78,7 +78,7 @@ Jexus Manager is capable of automating such on the current machine,
 
    If you want to manually achieve the same, then you should learn how to use
    the MMC snap-in from
-   `Microsoft Doc <https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in>`_ .
+   `Microsoft Docs <https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in>`_ .
 
 .. note:: If you want other machines to trust a self-signed certificate,
    perform the same on each of them. However, a valid certificate issued by
