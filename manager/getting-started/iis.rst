@@ -24,6 +24,8 @@ automatically created.
 .. attention:: You have to run Jexus Manager as administrator so as to see the
    local IIS server node.
 
+.. warning:: Many important features are not yet implemented, so be cautious.
+
 Next Step
 ---------
 Once a server is there, sites and applications can be managed by choosing one
