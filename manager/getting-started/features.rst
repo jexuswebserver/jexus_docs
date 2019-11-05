@@ -47,8 +47,8 @@ An IIS Express server can be easily created from a custom configuration file.
 
 #. Click "Finish" button.
 
-Add IIS Express From Visual Studio 2015/2017 Solution File
-----------------------------------------------------------
+Add IIS Express From Visual Studio 2015/2017/2019 Solution File
+---------------------------------------------------------------
 When you create a new web project in Visual Studio 2015/2017, the IDE adds a
 custom IIS Express configuration file to the project folder at
 ``($SolutionDir)\.vs\config\applicationHost.config``.
@@ -57,6 +57,8 @@ custom IIS Express configuration file to the project folder at
    Explorer.
 
    IIS Express custom configuration is documented in `this blog post <https://blogs.msdn.com/b/webdev/archive/2015/04/29/new-asp-net-features-and-fixes-in-visual-studio-2015-rc.aspx>`_ .
+
+Visual Studio 2019 uses ``($SolutionDir)\.vs\config\$(ProjectName)\applicationhost.config``.
 
 JetBrains Rider uses a similar approach, and it puts the configuration file at
 ``($SolutionDir)\.idea\config\applicationHost.config``.

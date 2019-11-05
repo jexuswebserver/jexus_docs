@@ -59,7 +59,7 @@ response,
 .. note:: If a web browser does not support SNI, then only IP based mappings
    is scanned. Examples: All browsers on Windows XP.
 
-.. note:: If your Windows is too old to support SNI, then only IP based
+.. note:: If your Windows/IIS is too old to support SNI, then only IP based
    mappings is scanned. Examples: Windows Vista/Windows 7/Windows Server 2008/
    Windows Server 2008 R2.
 
