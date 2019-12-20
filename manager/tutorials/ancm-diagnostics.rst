@@ -13,7 +13,8 @@ Background
 ----------
 An ASP.NET Core web app requires certain setup before being executed properly.
 However, the configuration steps are complex and critical settings might be
-neglected, which leads to failed deployment and miserable issues such as 502.5,
+neglected, which leads to failed deployment and miserable issues such as 502.5
+and 500.30,
 
 * ASP.NET Core module is not installed.
 * ASP.NET Core module version does not match the minimal version required by
@@ -21,6 +22,10 @@ neglected, which leads to failed deployment and miserable issues such as 502.5,
 * Visual C++ 2015 runtime is not installed.
 * Handler setting in ``web.config`` is invalid.
 * In-process module has no access to the content folder.
+* Binaries generated for in-process hosting have a bitness different from the
+  target application pool.
+* Affected by .NET Core SDK known issues such as 
+  `this <https://github.com/aspnet/Announcements/issues/398>`_.
 
 A thorough diagnostics tool can reveal typical configuration mistakes and help
 resolve them.
