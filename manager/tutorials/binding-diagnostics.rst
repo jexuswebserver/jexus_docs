@@ -63,6 +63,9 @@ the second site, while all other HTTP requests still go to the first site.
    address belongs to one of the network adapters of this machine. Using an
    invalid IP address only leads to an invalid binding.
 
+.. note:: More information about site bindings can be found in 
+   `this article <https://docs.microsoft.com/en-us/iis/configuration/system.applicationhost/sites/site/bindings/binding>`_. 
+
 It requires experience to fully understand the concepts of site bindings and
 how the HTTP request forwarding works especially when there are multiple sites
 on the same machine. Without learning HTTP protocol itself and how
