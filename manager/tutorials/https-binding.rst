@@ -155,4 +155,4 @@ Related Resources
 - :doc:`/tutorials/self-signed`
 - :doc:`/tutorials/inplace-elevation`
 - :doc:`/tutorials/ssl-diagnostics`
-- :doc:`/tutorials/tutorials/binding-diagnostics`
+- :doc:`/tutorials/binding-diagnostics`

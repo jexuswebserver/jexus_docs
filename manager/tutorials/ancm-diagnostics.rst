@@ -25,13 +25,13 @@ and 500.30,
 * Binaries generated for in-process hosting have bitness different from the
   target application pool.
 * Affected by .NET Core SDK known issues such as 
-  `this <https://github.com/aspnet/Announcements/issues/398>`_.
+  `this GitHub issue <https://github.com/aspnet/Announcements/issues/398>`_.
 
 A thorough diagnostics tool can reveal typical configuration mistakes and help
 resolve them.
 
 .. note:: Minimal ASP.NET Core module version required can be found in articles
-   like `this <http://https://dotnet.microsoft.com/download/dotnet-core/2.2>`_.
+   like `this download page <http://https://dotnet.microsoft.com/download/dotnet-core/2.2>`_.
 
 The Built-in ASP.NET Core Diagnostics
 -------------------------------------
