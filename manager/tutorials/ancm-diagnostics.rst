@@ -22,7 +22,7 @@ and 500.30,
 * Visual C++ 2015 runtime is not installed.
 * Handler setting in ``web.config`` is invalid.
 * In-process module has no access to the content folder.
-* Binaries generated for in-process hosting have a bitness different from the
+* Binaries generated for in-process hosting have bitness different from the
   target application pool.
 * Affected by .NET Core SDK known issues such as 
   `this <https://github.com/aspnet/Announcements/issues/398>`_.
@@ -49,6 +49,7 @@ Typical things analyzed by ASP.NET Core Diagnostics include but not limited to,
 * Application pool (No Managed Code).
 * Handler in web.config.
 * Web app runtime version.
+* In-process mode bitness.
 
 Related Resources
 -----------------
