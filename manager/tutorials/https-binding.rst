@@ -100,7 +100,10 @@ It is very clear that the certificate mappings are here.
 
 .. image:: _static/https_ip_based.png
 
-.. note:: IIS Express creates mappings for ``0.0.0.0:44300`` – ``0.0.0.0:44399`` during its installation, so that non administrators can bind HTTPS sites to such mappings.
+.. note:: IIS Express creates mappings for ``0.0.0.0:44300``–``0.0.0.0:44399``
+   during installation, so that non administrators can bind HTTPS sites to such
+   mappings. That's also why Visual Studio uses a default port between 44300
+   and 44399 for new ASP.NET or ASP.NET Core projects on IIS Express.
 
 Due to the limitation of such mappings, we know for a single IP end point,
 only a single certificate can be registered. That’s why when we attempt to
