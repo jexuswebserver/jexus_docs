@@ -49,6 +49,12 @@ Clearly Jexus Manager not only shows the exact line number in the config file,
 but also indicates the OOB module name and its download link. Simply follow the
 link to download and install the module, and the errors would disappear.
 
+The most commonly missed modules are,
+
+* URL Rewrite module
+* ASP.NET Core module
+* CORS module
+
 Related Resources
 -----------------
 
