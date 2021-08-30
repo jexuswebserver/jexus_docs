@@ -1,7 +1,5 @@
 {
-    "restructuredtext.builtDocumentationPath": "${env:TEST}/manager/_build/html",
     "restructuredtext.languageServer.disabled": false,
-    "restructuredtext.workspaceRoot": "/Users/lextm/jexus_docs",
     "editor.rulers": [
         79
     ],

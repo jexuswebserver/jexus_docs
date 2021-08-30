@@ -59,6 +59,8 @@ And if we add a second site,
 Then HTTP.sys forwards all HTTP requests with host header of "lextudio.com" to
 the second site, while all other HTTP requests still go to the first site.
 
+.. important:: To learn more about HTTPS bindings, check :doc:`/tutorials/https-binding`.
+
 .. important:: If the site binding contains an IP address, make sure that IP
    address belongs to one of the network adapters of this machine. Using an
    invalid IP address only leads to an invalid binding.
