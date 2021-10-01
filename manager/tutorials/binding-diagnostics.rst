@@ -65,6 +65,13 @@ the second site, while all other HTTP requests still go to the first site.
    address belongs to one of the network adapters of this machine. Using an
    invalid IP address only leads to an invalid binding.
 
+.. warning:: Certain HTTP API settings such as Reserved URLs can have conflicts
+   with site bindings. Check :doc:`/tutorials/https-binding`.
+
+.. warning:: Excluded port ranges can also have conflicts with site bindings.
+   Check `this KB article <https://support.microsoft.com/en-us/topic/you-cannot-exclude-ports-by-using-the-reservedports-registry-key-in-windows-server-2008-or-in-windows-server-2008-r2-a68373fd-9f64-4bde-9d68-c5eded74ea35>`_ .
+ 
+
 .. note:: More information about site bindings can be found in 
    `this article <https://docs.microsoft.com/en-us/iis/configuration/system.applicationhost/sites/site/bindings/binding>`_. 
 
