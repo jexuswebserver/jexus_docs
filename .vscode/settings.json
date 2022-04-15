@@ -1,7 +1,6 @@
 {
-    "restructuredtext.languageServer.disabled": false,
     "editor.rulers": [
         79
     ],
-    "restructuredtext.confPath": "${workspaceFolder}/manager"
+    "esbonio.sphinx.confDir": "${workspaceFolder}/manager",
 }
