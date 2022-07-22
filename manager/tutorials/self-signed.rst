@@ -60,7 +60,7 @@ For browsers like Internet Explorer, Chrome, and Edge, the self-signed
 certificate can be installed to Trusted Certificate Authorities store of the
 current user account.
 
-.. note:: However，browsers like Firefox do not honor such Windows
+.. note:: However, browsers like Firefox do not honor such Windows
    configuration, and you need to refer to their own documentation to learn how
    to trust the certificates.
 
