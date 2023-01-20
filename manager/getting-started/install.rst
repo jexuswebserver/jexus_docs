@@ -17,9 +17,9 @@ Supported Platforms
 -------------------
 Jexus Manager requires a machine that meets the following requirements,
 
-* .NET Framework 4.6 or above is installed.
-* Windows 7 and above as client OS.
-* Windows Server 2008 and above as server OS.
+* .NET Framework 4.6.2 or above is installed.
+* Windows 10 and above as client OS.
+* Windows Server 2012 and above as server OS.
 
 MSI Based Installation
 ----------------------
