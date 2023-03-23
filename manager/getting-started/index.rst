@@ -7,5 +7,6 @@ Getting Started
    install
    features
    iis
+   vscode
    jexus
    history
