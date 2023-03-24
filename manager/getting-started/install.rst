@@ -31,6 +31,9 @@ MSI Based Installation
 .. note:: If some conditions do not meet, the MSI installer will display an
    error message and indicate how to resolve them.
 
+.. note:: The x64 installer works most of the times on Windows ARM64. In case
+   you hit specific issues, please post a comment to `this GitHub issue <https://github.com/jexuswebserver/JexusManager/issues/152>`_ .
+
 Portable Installation
 ---------------------
 In certain cases, you might not be able to execute the MSI installer on some
