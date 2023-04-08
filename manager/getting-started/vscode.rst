@@ -19,9 +19,10 @@ In the meantime, Visual Studio Code users often find it difficult to work with
 IIS/IIS Express, because no existing extension provides rich access to all the
 important settings.
 
-That's why this new IIS and IIS Express extension for Visual Studio Code is made
-available now to bridges the two worlds. Developers can now easily launch Jexus
-Manager to manage IIS/IIS Express while working on web projects.
+That's why this new IIS and IIS Express extension for Visual Studio Code is
+made available now to bridges the two worlds. Developers can now easily launch
+Jexus Manager to manage IIS/IIS Express while working on web projects inside
+Visual Studio Code.
 
 Install The Extension
 ---------------------
