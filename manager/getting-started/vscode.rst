@@ -29,8 +29,8 @@ Install The Extension
 The extension has been published to `VS Code Marketplace <https://marketplace.visualstudio.com/items?itemName=lextudio.iis>`_
 so you can install it easily from there.
 
-You should also install Jexus Manager following :doc:`/getting-started/install`
-as it is the required dependency.
+Jexus Manager is a prerequisite and should be installed following
+:doc:`/getting-started/install`.
 
 Select Existing Configuration Files
 -----------------------------------
