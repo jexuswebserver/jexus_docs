@@ -50,8 +50,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Jexus Manager'
-copyright = u'2015, Lex Li'
-author = u'Lex Li'
+copyright = u'2015-2023, LeXtudio Inc.'
+author = u'LeXtudio Inc.'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -379,14 +379,14 @@ epub_exclude_files = ['search.html']
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {
-    'server': ('https://server.jexusmanager.com/en/latest', None)
+    'server': ('https://server.jexusmanager.com/', None)
 }
 
 feed_num_items = 15
 feed_skip_regex = '(.)*index'
-feed_base_url = 'https://www.jexusmanager.com/en/latest'
+feed_base_url = 'https://docs.jexusmanager.com/'
 feed_description = 'Jexus Manager Documentation'
-feed_author = 'Lex Li'
+feed_author = 'LeXtudio Inc.'
 
 def setup(app):
     on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
@@ -394,5 +394,5 @@ def setup(app):
         """Insert Google Analytics tracker
         Based on this Stackoverflow suggestion: https://stackoverflow.com/a/41885884
         """
-        app.add_js_file("https://www.googletagmanager.com/gtag/js?id=UA-1962620-14")
+        app.add_js_file("https://www.googletagmanager.com/gtag/js?id=G-ZDDQ4FLV95")
         app.add_js_file("google_analytics_tracker.js")
