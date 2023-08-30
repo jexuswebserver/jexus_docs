@@ -31,7 +31,7 @@ A thorough diagnostics tool can reveal typical configuration mistakes and help
 resolve them.
 
 .. note:: Minimal ASP.NET Core module version required can be found in articles
-   like `this download page <http://https://dotnet.microsoft.com/download/dotnet-core/2.2>`_.
+   like `this download page <https://dotnet.microsoft.com/download/dotnet/6.0>`_.
 
 The Built-in ASP.NET Core Diagnostics
 -------------------------------------
