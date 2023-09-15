@@ -23,9 +23,10 @@ Topics
 ------
 
 .. toctree::
-    :titlesonly:
+   :titlesonly:
 
-    getting-started/index
-    tutorials/index
-    support/index
-    privacy
+   Visit Docs Home <https://docs.lextudio.com>
+   getting-started/index
+   tutorials/index
+   support/index
+   privacy
