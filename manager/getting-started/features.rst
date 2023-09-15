@@ -41,7 +41,7 @@ An IIS Express server can be easily created from a custom configuration file.
 
 #. Click Next button.
 
-#. Give this connectioni a unique and meaningful name.
+#. Give this connection a unique and meaningful name.
 
    .. image:: _static/add_server_name.png
 
