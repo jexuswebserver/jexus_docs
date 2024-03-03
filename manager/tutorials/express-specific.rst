@@ -15,7 +15,7 @@ IIS Express is a development server that behaves differently from full IIS.
 
 Microsoft has listed several key differences in the article below,
 
-https://docs.microsoft.com/en-us/iis/extensions/introduction-to-iis-express/iis-express-overview
+https://learn.microsoft.com/iis/extensions/introduction-to-iis-express/iis-express-overview
 
 It might contain the key information but some users could not understand it
 easily.
@@ -25,7 +25,7 @@ Enable External Access
 IIS Express by default does not accept external requests. You can choose from
 the two approaches below to configure IIS Express to serve such requests.
 
-.. note:: Microsoft has `its own tutorial <https://docs.microsoft.com/en-us/iis/extensions/using-iis-express/handling-url-binding-failures-in-iis-express#serving-external-traffic>`_
+.. note:: Microsoft has `its own tutorial <https://learn.microsoft.com/iis/extensions/using-iis-express/handling-url-binding-failures-in-iis-express#serving-external-traffic>`_
    showing the manual steps. Jexus Manager helps automate them.
 
 Simplest Approach
@@ -134,7 +134,7 @@ IIS allows application pools to run in 32 bit or 64 bit, which can be set via
 ``enable32BitAppOnWin64`` attribute.
 
 .. note:: More information can be found from 
-   `this article <https://docs.microsoft.com/en-us/iis/configuration/system.applicationhost/applicationpools/add/>`_ 
+   `this article <https://learn.microsoft.com/iis/configuration/system.applicationhost/applicationpools/add/>`_ 
 
 However, for IIS Express the bitness is controlled by the bitness of
 ``iisexpress.exe``.

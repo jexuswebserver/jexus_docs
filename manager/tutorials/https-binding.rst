@@ -136,7 +136,7 @@ Reserved URLs are displayed under Reserved URL tab.
 .. image:: _static/reserved_urls.png
 
 .. note:: Microsoft has more information about reserved URLs
-   `here <https://docs.microsoft.com/en-us/iis/extensions/using-iis-express/handling-url-binding-failures-in-iis-express>`_ .
+   `here <https://learn.microsoft.com/iis/extensions/using-iis-express/handling-url-binding-failures-in-iis-express>`_ .
 
 Many applications would register their own URL reservations. Typical
 applications include Microsoft SQL Server Reporting Services.

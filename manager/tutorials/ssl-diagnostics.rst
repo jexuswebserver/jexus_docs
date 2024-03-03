@@ -16,7 +16,7 @@ Diagnostics.
 
 IIS 6 used to have a great suite of troubleshooting tools. One of them was for
 SSL related diagnostics, called `SSL Diagnostics (SSL Diag or SSLDiag for
-short) <https://technet.microsoft.com/en-us/library/cc780913(v=ws.10).aspx>`_ .
+short) <https://technet.microsoft.com/library/cc780913(v=ws.10).aspx>`_ .
 As it was designed for IIS 6 and relies on IIS ADSI API (which is obsolete),
 this tool was not made available for IIS 7 and above.
 

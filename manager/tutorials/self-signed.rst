@@ -21,7 +21,7 @@ Self-signed certificates are usually used during testing.
 
 .. note:: Instead of using tools like Jexus Manager, you can use PowerShell to
    generate self-signed certificates with customization. Please refer to
-   `Microsoft Docs <https://docs.microsoft.com/en-us/powershell/module/pkiclient/new-selfsignedcertificate>`_ .
+   `Microsoft Docs <https://learn.microsoft.com/powershell/module/pkiclient/new-selfsignedcertificate>`_ .
 
 Self-Signed Certificate Wizard
 ------------------------------
@@ -78,7 +78,7 @@ Jexus Manager is capable of automating such on the current machine,
 
    If you want to manually achieve the same, then you should learn how to use
    the MMC snap-in from
-   `Microsoft Docs <https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in>`_ .
+   `Microsoft Docs <https://learn.microsoft.com/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in>`_ .
 
 .. note:: If you want other machines to trust a self-signed certificate,
    perform the same on each of them. However, a valid certificate issued by

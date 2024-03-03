@@ -19,7 +19,7 @@ Thus, proper tooling is needed to diagnose such broken installation and learn
 which steps can be taken to make it healthy.
 
 .. attention:: Installing PHP via Web Platform Installer today is often problematic.
-   It is highly recommended that you follow `the manual steps <https://docs.microsoft.com/en-us/iis/application-frameworks/scenario-build-a-php-website-on-iis/configuring-step-1-install-iis-and-php#13-download-and-install-php-manually>`_ .
+   It is highly recommended that you follow `the manual steps <https://learn.microsoft.com/iis/application-frameworks/scenario-build-a-php-website-on-iis/configuring-step-1-install-iis-and-php#13-download-and-install-php-manually>`_ .
 
 The Built-in PHP Diagnostics
 ----------------------------
