@@ -28,3 +28,4 @@ Topics
     getting-started/index
     tutorials/index
     support/index
+    privacy
