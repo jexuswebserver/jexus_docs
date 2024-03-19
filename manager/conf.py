@@ -31,8 +31,13 @@ sys.path.insert(0, os.path.abspath('_ext'))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.intersphinx'
+    'sphinx.ext.intersphinx',
+    "sphinx_sitemap",
+    "sphinx_copybutton",
 ]
+
+html_baseurl = "https://docs.lextudio.com/jexusmanager/"
+sitemap_url_scheme = "{link}"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -96,6 +101,7 @@ exclude_patterns = ['_build']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
+pygments_dark_style = "monokai"
 
 # A list of ignored prefixes for module index sorting.
 #modindex_common_prefix = []
@@ -116,35 +122,31 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 
-# This allows sphinx_rtd_theme to work locally
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
-
-html_context = {
-    'on_rtd' : on_rtd,
-    'display_github': True,
-    'github_user': 'jexuswebserver',
-    'github_repo': 'jexus_docs',
-    'github_version': 'master/manager/',
-}
-
-if not on_rtd:
-    import sphinx_rtd_theme
-    html_theme = 'sphinx_rtd_theme'
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-    
-#html_theme = 'default'
+html_theme = 'furo'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#html_theme_options = {}
+html_theme_options = {
+    "source_repository": "https://github.com/jexuswebserver/jexus_docs",
+    "source_branch": "master",
+    "source_directory": "manager/",
+    "footer_icons": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/jexuswebserver/jexus_docs",
+            "html": "",
+            "class": "fa-brands fa-solid fa-github fa-2x",
+        },
+    ],
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-#html_title = None
+html_title = "Jexus Manager Documentation"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -384,7 +386,7 @@ intersphinx_mapping = {
 
 feed_num_items = 15
 feed_skip_regex = '(.)*index'
-feed_base_url = 'https://docs.jexusmanager.com/'
+feed_base_url = 'https://docs.lextudio.com/jexusmanager/'
 feed_description = 'Jexus Manager Documentation'
 feed_author = 'LeXtudio Inc.'
 

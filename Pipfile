@@ -4,10 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-esbonio = "*"
-sphinx-rtd-theme = "*"
+furo = "*"
+sphinx = "*"
+sphinx-sitemap = "*"
+sphinx-copybutton = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.7"
+python_version = "3.11"
