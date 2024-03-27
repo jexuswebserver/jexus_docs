@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This page shows you how Jexus Manager informs that UAC elevation is required.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Background
 ----------
 Jexus Manager can run as a normal user to navigate the settings. Meanwhile, web

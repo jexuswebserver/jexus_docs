@@ -6,10 +6,6 @@ By `Lex Li`_
 This page shows you how to use Jexus Manager to generate self-signed
 certificates.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Background
 ----------
 Before setting HTTPS bindings, it is very important to configure server

@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This page shows you how to use Jexus Manager to manage local IIS instance.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Background
 ----------
 There are several issues with IIS Manager that you might not be able to use it

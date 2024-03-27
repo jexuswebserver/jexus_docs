@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This page shows you how to use Binding Diagnostics.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Background
 ----------
 IIS sites use bindings to determine what kind of incoming HTTP requests they

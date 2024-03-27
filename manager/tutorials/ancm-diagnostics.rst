@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This page shows you how to use ASP.NET Core Diagnostics.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Background
 ----------
 An ASP.NET Core web app requires certain setup before being executed properly.

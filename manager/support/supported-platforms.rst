@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This page shows you what are the supported platforms to run Jexus Manager.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Background
 ----------
 Jexus Manager is currently in beta, so it only supports a limited set of

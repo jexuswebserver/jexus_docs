@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This page shows you how to find Jexus Manager update.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Background
 ----------
 Jexus Manager has been updated frequently to address crashes and other critical

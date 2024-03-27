@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This page shows you how IIS Express works differently from other web servers.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Background
 ----------
 IIS Express is a development server that behaves differently from full IIS.

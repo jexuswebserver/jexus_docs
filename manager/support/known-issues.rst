@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This page shows you what are the known issues.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 IIS Express
 -----------
 

@@ -6,10 +6,6 @@ By `Lex Li`_
 This page shows you how to manage the Jexus web server remotely in Jexus
 Manager.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Background
 ----------
 Jexus Manager is designed to be compatible with Jexus web server.

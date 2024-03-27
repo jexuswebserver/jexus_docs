@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This page shows you how to troubleshoot common issues.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 How to troubleshoot client/server connectivity?
 -----------------------------------------------
 Answer: First please follow server component installation steps to review if

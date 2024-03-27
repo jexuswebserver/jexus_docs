@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This page shows you how to use Jexus Manager to manage Jexus specific settings.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Background
 ----------
 Jexus web server does have some special settings that are not yet mapped to IIS

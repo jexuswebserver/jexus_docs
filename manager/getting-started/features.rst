@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This page shows you how to add IIS Express servers in Jexus Manager.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Background
 ----------
 You need to add an IIS Express server in Jexus Manager before managing its

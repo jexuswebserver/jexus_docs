@@ -6,10 +6,6 @@ By `Lex Li`_
 This page shows you how to use Jexus Manager HTTP API page to review IIS/IIS
 Express HTTPS bindings.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Background
 ----------
 You probably wonder how IIS is able to serve HTTPS bindings for web sites,

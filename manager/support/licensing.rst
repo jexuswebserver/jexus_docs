@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This page shows you how the licensing works for Jexus Manager.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Background
 ----------
 Jexus Manager is free to download and use.

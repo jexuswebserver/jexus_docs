@@ -6,10 +6,6 @@ By `Lex Li`_
 This page shows you how to use Jexus Manager to analyze IIS Out-Of-Band (OOB)
 related 500.19 errors.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Background
 ----------
 IIS 7+ functionality can be extended by installing OOB modules. For example,

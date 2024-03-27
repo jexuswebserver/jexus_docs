@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This page shows you how to use PHP Diagnostics.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Background
 ----------
 IIS supports PHP via FastCGI. However, registering PHP properly on IIS has been

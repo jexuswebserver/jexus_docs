@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This page shows you how to configure Jexus Manager with Visual Studio Code.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Background
 ----------
 Jexus Manager has been designed to be compatible with Microsoft IIS Manager, so

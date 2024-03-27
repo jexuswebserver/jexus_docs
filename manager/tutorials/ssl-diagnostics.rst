@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This page shows you how to use SSL Diagnostics.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Background
 ----------
 There were either official or unofficial tools from Microsoft called SSL

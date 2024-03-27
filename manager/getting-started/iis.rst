@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This page shows you how to manage the local IIS server in Jexus Manager.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Background
 ----------
 Jexus Manager is designed to be compatible with Microsoft IIS Manager.

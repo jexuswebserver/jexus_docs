@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This page shows you how to install Jexus Manager on Windows.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Background
 ----------
 Jexus Manager is currently in preview and primarily tested on Windows.

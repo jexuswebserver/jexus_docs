@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This page shows you how to use Visual Studio Project Diagnostics.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Background
 ----------
 Visual Studio web projects contain some IIS settings, while VS also writes some
