@@ -8,6 +8,7 @@ furo = "*"
 sphinx = "*"
 sphinx-sitemap-lextudio = "*"
 sphinx-copybutton = "*"
+sphinx-notfound-page = "*"
 
 [dev-packages]
 
