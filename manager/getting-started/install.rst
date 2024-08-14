@@ -19,8 +19,8 @@ Jexus Manager requires a machine that meets the following requirements,
 
 MSI Based Installation
 ----------------------
-#. Download the MSI installer ``JexusManager_arm64.msi`` ``JexusManager_x64.msi`` or
-   ``JexusManager_x86.msi`` from `the latest release on GitHub <https://github.com/jexuswebserver/JexusManager/releases>`_ to match your machine hardware.
+#. Download the MSI installer ``JexusManager_arm64.msi`` or ``JexusManager_x64.msi``
+   from `the latest release on GitHub <https://github.com/jexuswebserver/JexusManager/releases>`_ to match your machine hardware.
 #. Install from the MSI installer.
 #. Launch Jexus Manager from Start menu.
 
