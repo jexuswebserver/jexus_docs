@@ -146,6 +146,9 @@ like IIS/IIS Express cannot start to monitor certain site bindings.
 
 .. important:: Equivalent command line is ``netsh http show urlacl``.
 
+   Commands like ``netsh http show servicestate view=requestq verbose=no``
+   reveal more details about the reservations.
+
 Related Resources
 -----------------
 
